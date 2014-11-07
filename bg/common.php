@@ -404,7 +404,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d съобщение',
 		2	=> '%d съобщения',
 	),
-	'MESSAGE_BODY'			=> 'Тяло на съобщението',
+	'MESSAGE_BODY'			=> 'Текст на съобщението',
 	'MINUTES'				=> 'Минути',
 	'MODERATE'				=> 'Модерирай',
 	'MODERATOR'				=> 'Модератор',
