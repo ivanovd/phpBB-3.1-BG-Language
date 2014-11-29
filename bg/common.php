@@ -149,6 +149,7 @@ $lang = array_merge($lang, array(
 	'BYTES_SHORT'			=> 'Б',
 
 	'CANCEL'				=> 'Откажи',
+	'CC_SENDER'				=> 'Изпрати копие от писмото до мен',
 	'CHANGE'				=> 'Промени',
 	'CHANGE_FONT_SIZE'		=> 'Промени размера на шрифта',
 	'CHANGING_PREFERENCES'	=> 'Промяна настройкте на форума',
