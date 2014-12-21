@@ -33,55 +33,55 @@ if (!defined('IN_PHPBB'))
 $help = array(
 	array(
 		0 => '--',
-		1 => 'Login and Registration Issues'
+		1 => 'Проблеми при влизането и регистрацията'
 	),
 	array(
-		0 => 'Why do I need to register?',
-		1 => 'You may not have to, it is up to the administrator of the board as to whether you need to register in order to post messages. However; registration will give you access to additional features not available to guest users such as definable avatar images, private messaging, emailing of fellow users, usergroup subscription, etc. It only takes a few moments to register so it is recommended you do so.'
+		0 => 'Защо трябва да се регистрирам?',
+		1 => 'Не е задължително, това зависи от решението на администратора на форума дали е нужна регистрация за да се публикуват мнения. Въпреки това, регистрацията ще Ви даде достъп до допълнителни функции, които не са достъпни за гостите, като аватари, лични съобщения, изпращане на емейли, участие в групи и др. Регистрацията отнема само момент и е препоръчително да се направи.'
 	),
 	array(
-		0 => 'What is COPPA?',
-		1 => 'COPPA, or the Children’s Online Privacy Protection Act of 1998, is a law in the United States requiring websites which can potentially collect information from minors under the age of 13 to have written parental consent or some other method of legal guardian acknowledgment, allowing the collection of personally identifiable information from a minor under the age of 13. If you are unsure if this applies to you as someone trying to register or to the website you are trying to register on, contact legal counsel for assistance. Please note that phpBB Limited and the owner’s of this board cannot provide legal advice and is not a point of contact for legal concerns of any kind, except as outlined in question “Who do I contact about abusive and/or legal matters related to this board?”.',
+		0 => 'Какво е COPPA?',
+		1 => 'COPPA, или Children’s Online Privacy Protection Act от 1998, е закон в САЩ, който задължава сайтове, които потенциално могат да събират информация от малолетни лица под 13 годишна възраст да имат писменото разрешение на родител или някакъв друг вид легално съглашение, позволяващо събирането на лична информация от лицето под 13 годишна възраст. Ако не сте сигурни, че това е приложимо за Вас, като някой, който се опитва да се регистрира или за сайта, в който се опитвате да се регистрирате, моля потърсете правен съвет. Моля, имайте предвид, че phpBB Limited и собственикът на този форум не могат да предложат правни съвети по тази точка.',
 	),
 	array(
-		0 => 'Why can’t I register?',
-		1 => 'It is possible a board administrator has disabled registration to prevent new visitors from signing up. A board administrator could have also banned your IP address or disallowed the username you are attempting to register. Contact a board administrator for assistance.',
+		0 => 'Защо не мога да се регистрирам?',
+		1 => 'Възможно е администраторът да е забранил регистрацията на нови потребители. Също така е възможно администраторът да е забранил достъпът от Вашият IP адрес или с потребителското Ви име. Свържете се с администратора за повече информация.',
 	),
 	array(
-		0 => 'I registered but cannot login!',
-		1 => 'First, check your username and password. If they are correct, then one of two things may have happened. If COPPA support is enabled and you specified being under 13 years old during registration, you will have to follow the instructions you received. Some boards will also require new registrations to be activated, either by yourself or by an administrator before you can logon; this information was present during registration. If you were sent an email, follow the instructions. If you did not receive an email, you may have provided an incorrect email address or the email may have been picked up by a spam filer. If you are sure the email address you provided is correct, try contacting an administrator.'
+		0 => 'Регистрирах се, но не мога да вляза!',
+		1 => 'Първо, проверете дали сте въвели потребителското си име и парола правилно. Ако са правилни, то едно от следните две неща може да се е случило. Ако COPPA поддръжката е включена и сте избрали, че сте под 13 годишна възраст по време на регистрацията, то ще трябва да изпълните инструкциите, които сте получили. Някои форуми изискват активация на потребителското име, или от вас самия или от администратор. Тази информаия ще Ви бъде предоставена по време на регистрация. Ако Ви е изпратен емейл, следвайте инструкциите в него. Ако не сте получили емейл, е възможно да сте предоставили грешен адрес или емейлът да е бил категоризиран като спам. Ако сте сигурни, че емейл адресът, който сте предоставили е верен, моля свържете се с администратор.'
 	),
 	array(
-		0 => 'Why can’t I login?',
-		1 => 'There are several reasons why this could occur. First, ensure your username and password are correct. If they are, contact a board administrator to make sure you haven’t been banned. It is also possible the website owner has a configuration error on their end, and they would need to fix it.',
+		0 => 'Защо не мога да вляза?',
+		1 => 'Има няколко възможни причини за това. Първо, проверете дали сте въвели потребителското си име и парола правилно. Ако са правилни, моля свържете се с администратор за да се уверите, че не сте изгонен. Възможно е собственикът на сайта да е направил конфигурационна грешка, която трябва да отстрани.',
 	),
 	array(
-		0 => 'I registered in the past but cannot login any more?!',
-		1 => 'It is possible an administrator has deactivated or deleted your account for some reason. Also, many boards periodically remove users who have not posted for a long time to reduce the size of the database. If this has happened, try registering again and being more involved in discussions.'
+		0 => 'Регистрирах се отдавна, но сега не мога да вляза?!',
+		1 => 'Възможно е администраторът да е деактивирал или изтрил профила Ви по някаква причина. Много форуми периодично изтриват потребители, които не публикуват мнения за дълго време за да намалят размера на базата данни. Ако това се е случило, опитайте да се регистрирате отново и да участвате активно в дискусиите.'
 	),
 	array(
-		0 => 'I’ve lost my password!',
-		1 => 'Don’t panic! While your password cannot be retrieved, it can easily be reset. Visit the login page and click <em>I forgot my password</em>. Follow the instructions and you should be able to log in again shortly.<br />However, if you are not able to reset your password, contact a board administrator.',
+		0 => 'Забравих си паролата!',
+		1 => 'Без паника! Въпреки, че не можем да възстановим паролата Ви, много лесно можем да Ви дадем нова. На страницата за вход натиснете връзката "Забравих си паролата". Следвайте инструкциите и би трябвало да можете да влезнете след това.<br />Ако въпреки това не успеете да влезете се свържете с администратор.',
 	),
 	array(
-		0 => 'Why do I get logged off automatically?',
-		1 => 'If you do not check the <em>Remember me</em> box when you login, the board will only keep you logged in for a preset time. This prevents misuse of your account by anyone else. To stay logged in, check the <em>Remember me</em> box during login. This is not recommended if you access the board from a shared computer, e.g. library, internet cafe, university computer lab, etc. If you do not see this checkbox, it means a board administrator has disabled this feature.',
+		0 => 'Защо излизам автоматично?',
+		1 => 'Ако не сте избрали “Запомни ме” при вход, то форумът ще пази сесията Ви само за определено време. Това предотвратява използване на профила Ви от някой друг, който ползва същият компютър. За да останете постоянно в своя профил изберете “Запомни ме” по време на вход. Не Ви препоръчваме тази опция ако споделяте компютъра с други хора. Ако не виждате такава опция това значи, че администратора я е забранил.',
 	),
 	array(
-		0 => 'What does the “Delete all board cookies” do?',
-		1 => '“Delete all board cookies” deletes the cookies created by phpBB which keep you authenticated and logged into the board. Cookies also provide functions such as read tracking if they have been enabled by a board administrator. If you are having login or logout problems, deleting board cookies may help.',
+		0 => 'Какво прави “Изтрий всички бисквитки от форума”?',
+		1 => '“Изтрий всички бисквитки от форума” изтрива бисквитките създадени от phpBB, които Ви пазят сесията във форума. Бисквитките също така предоставят възможност функции като следене на новите мнения и теми да работят. Ако имате проблеми с влизането или излизането от форума изтриването на бисквитките би могло да реши проблема.',
 	),
 	array(
 		0 => '--',
-		1 => 'User Preferences and settings'
+		1 => 'Потребителски настройки и предпочитания'
 	),
 	array(
-		0 => 'How do I change my settings?',
-		1 => 'If you are a registered user, all your settings are stored in the board database. To alter them, visit your User Control Panel; a link can usually be found by clicking on your username at the top of board pages. This system will allow you to change all your settings and preferences.',
+		0 => 'Как да си променя настройките?',
+		1 => 'Ако сте регистриран потребител, всичките Ви настройки се пазят в базата данни. За да ги промените, трябва да посетите Потребителския панел, това е връзка, която се намира в менюто, което се показва, след като кликнете на потребителското си име, намиращо се най-горе в дясно. Този панел ще Ви даде възможност да промените всички Ваши предпочитания и настройки.',
 	),
 	array(
-		0 => 'How do I prevent my username appearing in the online user listings?',
-		1 => 'Within your User Control Panel, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		0 => 'Как да скрия потребителското си име от списъка с потребителите на линия?',
+		1 => 'От Потребителския панел, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
 	),
 	array(
 		0 => 'The times are not correct!',

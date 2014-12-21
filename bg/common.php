@@ -448,7 +448,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_FORUM'				=> '<em>Форум:</em> %1$s',
 	'NOTIFICATION_GROUP_REQUEST'		=> '%1$s желае да се присъедини към групата %2$s.',
 	'NOTIFICATION_GROUP_REQUEST_APPROVED'	=> 'Изкането за присъединяване към групата %1$s е <strong>одобрено</strong>.',
-	'NOTIFICATION_PM'					=> '<strong>Лично съобщениеPrivate Message</strong> от %1$s:',
+	'NOTIFICATION_PM'					=> '<strong>Лично съобщение</strong> от %1$s:',
 	'NOTIFICATION_POST'					=> array(
 		1	=> '<strong>Отговор</strong> от %1$s в тема:',
 	),
