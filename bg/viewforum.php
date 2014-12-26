@@ -37,36 +37,36 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACTIVE_TOPICS'			=> 'Active topics',
-	'ANNOUNCEMENTS'			=> 'Announcements',
+	'ACTIVE_TOPICS'			=> 'Активни теми',
+	'ANNOUNCEMENTS'			=> 'Съобщения',
 
-	'FORUM_PERMISSIONS'		=> 'Forum permissions',
+	'FORUM_PERMISSIONS'		=> 'Права на форума',
 
-	'ICON_ANNOUNCEMENT'		=> 'Announcement',
-	'ICON_STICKY'			=> 'Sticky',
+	'ICON_ANNOUNCEMENT'		=> 'Съобщение',
+	'ICON_STICKY'			=> 'Закачена',
 
-	'LOGIN_NOTIFY_FORUM'	=> 'You have been notified about this forum, please login to view it.',
+	'LOGIN_NOTIFY_FORUM'	=> 'Бяхте уведомен за този форум, моля влезте в профила си за да го прегледате.',
 
-	'MARK_TOPICS_READ'		=> 'Mark topics read',
+	'MARK_TOPICS_READ'		=> 'Маркирай темата като прочетена',
 
 	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
 	'NO_NEW_POSTS_HOT'		=> 'No new posts [ Popular ]',	// Not used anymore
 	'NO_NEW_POSTS_LOCKED'	=> 'No new posts [ Locked ]',	// Not used anymore
-	'NO_READ_ACCESS'		=> 'You do not have the required permissions to read topics within this forum.',
-	'NO_UNREAD_POSTS_HOT'		=> 'No unread posts [ Popular ]',
-	'NO_UNREAD_POSTS_LOCKED'	=> 'No unread posts [ Locked ]',
+	'NO_READ_ACCESS'		=> 'Нямате необходимите права за да разглеждате теми в този форум.',
+	'NO_UNREAD_POSTS_HOT'		=> 'Няма непрочетени мнения [ Популярни ]',
+	'NO_UNREAD_POSTS_LOCKED'	=> 'Няма непрочетени мнения [ Заключени ]',
 
-	'POST_FORUM_LOCKED'		=> 'Forum is locked',
+	'POST_FORUM_LOCKED'		=> 'Форумът е заключен',
 
-	'TOPICS_MARKED'			=> 'The topics for this forum have now been marked read.',
+	'TOPICS_MARKED'			=> 'Темите в този форум бяха маркирани като прочетени.',
 
-	'UNREAD_POSTS_HOT'		=> 'Unread posts [ Popular ]',
-	'UNREAD_POSTS_LOCKED'	=> 'Unread posts [ Locked ]',
+	'UNREAD_POSTS_HOT'		=> 'Непрочетени мнения [ Популярни ]',
+	'UNREAD_POSTS_LOCKED'	=> 'Непрочетени мнения [ Заключени ]',
 
-	'VIEW_FORUM'			=> 'View forum',
+	'VIEW_FORUM'			=> 'Виж форума',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d topic',
-		2	=> '%d topics',
+		1	=> '%d тема',
+		2	=> '%d теми',
 	),
 ));

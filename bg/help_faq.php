@@ -81,39 +81,39 @@ $help = array(
 	),
 	array(
 		0 => 'Как да скрия потребителското си име от списъка с потребителите на линия?',
-		1 => 'От Потребителския панел, under “Board preferences”, you will find the option <em>Hide your online status</em>. Enable this option and you will only appear to the administrators, moderators and yourself. You will be counted as a hidden user.'
+		1 => 'От Потребителския панел, в раздел “Настройки на форума”, ще намерите опцията <em>Не показвай кога съм на линия</em>. Изберете <em>Да</em> и само администраторите, модераторите и Вие ще виждате потребителското си име в списъка с потребителите на линия. Ще имате статут на скрит потребител.'
 	),
 	array(
-		0 => 'The times are not correct!',
-		1 => 'It is possible the time displayed is from a timezone different from the one you are in. If this is the case, visit your User Control Panel and change your timezone to match your particular area, e.g. London, Paris, New York, Sydney, etc. Please note that changing the timezone, like most settings, can only be done by registered users. If you are not registered, this is a good time to do so.'
+		0 => 'Времената не са правилни!',
+		1 => 'Възможно е времената показани във форума да са от различна от вашата часова зона. Ако това е така, то отидете в Потребителския Контролен Панел и променете часовата си зона, спрямо това къде се намирате в момента. Имайте предвид, че смяната на часовата зона, както и повечето настройки са разрешени само за регистрирани потребители. Ако не сте се регистрирали, сега е времето да го направите.'
 	),
 	array(
-		0 => 'I changed the timezone and the time is still wrong!',
-		1 => 'If you are sure you have set the timezone correctly and the time is still incorrect, then the time stored on the server clock is incorrect. Please notify an administrator to correct the problem.'
+		0 => 'Промених си часовата зона, но времето все още е грешно!',
+		1 => 'Ако сте сигурни, че сте избрали правилната часова зона и времето все още не е правилно, тогава часовникът на сървъра най-вероятно е грешен. Моля, уведомете администратора за да поправи проблема.'
 	),
 	array(
-		0 => 'My language is not in the list!',
-		1 => 'Either the administrator has not installed your language or nobody has translated this board into your language. Try asking a board administrator if they can install the language pack you need. If the language pack does not exist, feel free to create a new translation. More information can be found at the <a href="https://www.phpbb.com/">phpBB</a>&reg; website.',
+		0 => 'Езикът ми не е сред тези в списъка, от които мога да избера!',
+		1 => 'Най вероятно администраторът не е инсталирал Вашият език или все още никой не е превел форума на Вашият език. Опитайте се да се свържете с администратора и попитайте дали може да бъде инсталиран езикът, който Ви трябва.',
 	),
 	array(
-		0 => 'What are the images next to my username?',
-		1 => 'There are two images which may appear along with a username when viewing posts. One of them may be an image associated with your rank, generally in the form of stars, blocks or dots, indicating how many posts you have made or your status on the board. Another, usually larger, image is known as an avatar and is generally unique or personal to each user.',
+		0 => 'Какви са тези картинки до потребителското ми име?',
+		1 => 'Има два вида картинки, които могат да бъдат до потребителското Ви име, когато се разглеждат теми или мнения. Едната може да е изображение, асоциирано с вашия ранг, най-често във формата на звезди, квадратчета или точки, индикиращи колко мнения сте публикувал или Вашият статус във форума. Другата картинка, обикновено по-голяма, е известна като аватар и обикновено е уникална или персонална за всеки потребител.',
 	),
 	array(
-		0 => 'How do I display an avatar?',
-		1 => 'Within your User Control Panel, under “Profile” you can add an avatar by using one of the four following methods: Gravatar, Gallery, Remote or Upload. It is up to the board administrator to enable avatars and to choose the way in which avatars can be made available. If you are unable to use avatars, contact a board administrator.',
+		0 => 'Как да си сложа аватар?',
+		1 => 'В Потребителския Контролен Панел, в раздел “Профил” можете да добавите аватар от един от следните четири типа: Gravatar, Галерия, Външен или да качите свой собствен. В зависимост от решението на администратора на форума, възможно е аватарите да са забранени или някои от типовете да не са налични. Ако не можете да ползвате аватар, свържете се с администратора.',
 	),
 	array(
-		0 => 'What is my rank and how do I change it?',
-		1 => 'Ranks, which appear below your username, indicate the number of posts you have made or identify certain users, e.g. moderators and administrators. In general, you cannot directly change the wording of any board ranks as they are set by the board administrator. Please do not abuse the board by posting unnecessarily just to increase your rank. Most boards will not tolerate this and the moderator or administrator will simply lower your post count.'
+		0 => 'Какъв е рангът ми и как да го променя?',
+		1 => 'Ранговете, които се появяват под потребителското Ви име, показват броя на мненията, които сте публикували или идентифицират дадени потребители, например модератори или администратори. Обикновено, не можете директно да промените имената на ранговете, тъй като те се определят от администратора. Моля, не злоупотребявайте, като публикувате ненужни мнения само и само да увеличите ранга си. Повечето форуми не толерират това и модератор или администратор може да намали броят на мненията Ви.'
 	),
 	array(
-		0 => 'When I click the email link for a user it asks me to login?',
-		1 => 'Only registered users can send email to other users via the built-in email form, and only if the administrator has enabled this feature. This is to prevent malicious use of the email system by anonymous users.'
+		0 => 'Защо когато кликна на връзката за изпращане на емейл до потребител ме кара да влезна в профила си?',
+		1 => 'Само регистрираните потребители могат да изпращат емейли до други потребители през вградената емейл форма и то само ако администратора е разрешил тази функция. За да се предотврати злоупотреба, използването на тази функция от анонимни потребители е забранено.'
 	),
 	array(
 		0 => '--',
-		1 => 'Posting Issues'
+		1 => 'Проблеми с публикуването'
 	),
 	array(
 		0 => 'How do I create a new topic or post a reply?',
