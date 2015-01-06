@@ -258,7 +258,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> 'Само тема “%s”',
 	'OTHER_USERS'			=> 'Други потребители, пишещи от това IP',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s not allowed as quickmod",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s не е позволено за бързо модериране",
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'The selected PM report has been closed successfully.',
 	'PM_REPORT_DELETED_SUCCESS'	=> 'The selected PM report has been deleted successfully.',
@@ -411,7 +411,7 @@ $lang = array_merge($lang, array(
 	'WARNED_USERS_EXPLAIN'	=> 'This is a list of users with unexpired warnings issued to them.',
 	'WARNING_PM_BODY'		=> 'The following is a warning which has been issued to you by an administrator or moderator of this site.[quote]%s[/quote]',
 	'WARNING_PM_SUBJECT'	=> 'Board warning issued',
-	'WARNING_POST_DEFAULT'	=> 'This is a warning regarding the following post made by you: %s .',
+	'WARNING_POST_DEFAULT'	=> 'This is a warning regarding the following post made by you: %s.',
 	'NO_WARNINGS'	=> 'No warnings exist.',
 
 	'YOU_SELECTED_TOPIC'	=> 'You selected topic number %d: %s.',

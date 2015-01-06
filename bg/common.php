@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_PM'				=> 'ЛС',
 	'BUTTON_PM_FORWARD'		=> 'Препрати',
 	'BUTTON_PM_NEW'			=> 'Ново ЛС',
-	'BUTTON_PM_REPLY'		=> 'Отговор',
+	'BUTTON_PM_REPLY'		=> 'Отговори',
 	'BUTTON_PM_REPLY_ALL'	=> 'Отговори на всички',
 	'BUTTON_POST_REPLY'		=> 'Отговори',
 	'BUTTON_QUOTE'			=> 'Цитат',
@@ -521,7 +521,7 @@ $lang = array_merge($lang, array(
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_ATTACHMENTS'		=> array(
 		1	=> '%d прикачен файл',
-		2	=> '%d прикачени файлове',
+		2	=> '%d прикачени файлa',
 	),
 	'NUM_POSTS_IN_QUEUE'		=> array(
 		0			=> 'Няма мнения в опашката',		// 0
@@ -637,7 +637,7 @@ $lang = array_merge($lang, array(
 	'RETURN_FORUM'				=> '%sВърни се в последно посетения форум%s',
 	'RETURN_PAGE'				=> '%sВърни се на предишната страница%s',
 	'RETURN_TOPIC'				=> '%sВърни се на последно посетената тема%s',
-	'RETURN_TO'					=> 'Върни се на “%s”',
+	'RETURN_TO'					=> 'Върни се в “%s”',
 	'RETURN_TO_INDEX'			=> 'Върни се в началото на форума',
 	'FEED'						=> 'Хранилка',
 	'FEED_NEWS'					=> 'Новини',

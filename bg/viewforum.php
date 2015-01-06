@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_NOTIFY_FORUM'	=> 'Бяхте уведомен за този форум, моля влезте в профила си за да го прегледате.',
 
-	'MARK_TOPICS_READ'		=> 'Маркирай темата като прочетена',
+	'MARK_TOPICS_READ'		=> 'Маркирай темите като прочетени',
 
 	'NEW_POSTS_HOT'			=> 'New posts [ Popular ]',	// Not used anymore
 	'NEW_POSTS_LOCKED'		=> 'New posts [ Locked ]',	// Not used anymore
