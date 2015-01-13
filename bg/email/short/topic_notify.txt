@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Subject: Известие за отговор в тема - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because you are watching the topic "{TOPIC_TITLE}" at "{SITENAME}". This topic has received a reply<!-- IF AUTHOR_NAME --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the replies made, no more notifications will be sent until you visit the topic.
+Получавате това известие, защото сте абониран за темата "{TOPIC_TITLE}" в "{SITENAME}". <!-- IF AUTHOR_NAME -->{AUTHOR_NAME}<!-- ENDIF --> е публикувал отговор в темата след последното Ви посещение. Можете да видите отговорите като последвате следните връзки, няма да получавате известия докато не посетите темата и не прочетете отговорите.
 
-If you want to view the newest post made since your last visit, click the following link:
+Ако искате да видите мненията, публикувани след последното Ви посещение, моля последвайте следната връзка:
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Ако искате да видите темата, моля последвайте следната връзка:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Ако искате да видите форума, моля последвайте следната връзка:
 {U_FORUM}
 
-If you no longer wish to watch this topic you can either click the "Unsubscribe topic" link found at the bottom of the topic above, or by clicking the following link:
+Ако искате да спрете абонамента за тази тема, можете да натиснете бутона "Отписване от темата", който се намира най-долу в темата или като последвате следната връзка:
 
 {U_STOP_WATCHING_TOPIC}
 

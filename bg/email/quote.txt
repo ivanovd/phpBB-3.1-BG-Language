@@ -1,19 +1,19 @@
-Subject: Topic reply notification - "{TOPIC_TITLE}"
+Заглавие: Известие за нов отговор в тема - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because "{AUTHOR_NAME}" quoted you in the topic "{TOPIC_TITLE}" at "{SITENAME}". You can use the following link to view the reply made.
+Получавате това известие, защото "{AUTHOR_NAME}" Ви е цитирал в тема "{TOPIC_TITLE}" в "{SITENAME}". Можете да последвате следните връзки за да видите отговора.
 
-If you want to view the quoted post, click the following link:
+Ако искате да видите цитираното мнение, моля последвайте следната връзка:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Ако искате да видите темата, моля последвайте следната връзка:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Ако искате да видите форума, моля последвайте следната връзка:
 {U_FORUM}
 
-If you no longer wish to receive updates about replies quoting you, please update your notification settings here:
+Ако не искате да получавате известия, когато някой Ви цитира, моля обновете настройките си за известия от тук:
 
 {U_NOTIFICATION_SETTINGS}
 

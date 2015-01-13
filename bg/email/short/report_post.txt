@@ -1,13 +1,13 @@
-Subject: Post report - "{TOPIC_TITLE}"
+Subject: Докладвано мнение в тема - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" was reported.
+Получавате това известие, защото мнението "{POST_SUBJECT}" в "{SITENAME}" беше докладвано.
 
-If you want to view the report, click the following link:
+Ако искате да видите доклада, моля последвайте следната връзка:
 {U_VIEW_REPORT}
 
-If you want to view the post, click the following link:
+Ако искате да видите мнението, моля последвайте следната връзка:
 {U_VIEW_POST}
 
 {EMAIL_SIG}

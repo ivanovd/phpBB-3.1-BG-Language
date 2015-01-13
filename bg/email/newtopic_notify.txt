@@ -1,12 +1,12 @@
-Subject: New topic notification - "{FORUM_NAME}"
+Заглавие: Известие за нова тема във форум - "{FORUM_NAME}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new topic<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit, "{TOPIC_TITLE}". You can use the following link to view the forum, no more notifications will be sent until you visit the forum.
+Получавате това известие, защото във форумът "{FORUM_NAME}" в "{SITENAME}", за който сте абониран е била публикувана нова тема<!-- IF AUTHOR_NAME --> от {AUTHOR_NAME}<!-- ENDIF --> със заглавие "{TOPIC_TITLE}", след последното Ви посещение. Можете да последвате следната връзка за да видите форума, няма да получавате повече известия, докато не посетите форума.
 
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+Ако не искате да получавате повече известия за този форум, можете да натиснете бутона "Отписване от форума", който се намира най-долу на всеки форум или като последвате следната връзка:
 
 {U_STOP_WATCHING_FORUM}
 

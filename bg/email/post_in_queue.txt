@@ -1,13 +1,13 @@
-Subject: Post moderation notification - "{TOPIC_TITLE}"
+Заглавие: Известие за мнение, нуждаещо се от одобрение - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because the post "{POST_SUBJECT}" at "{SITENAME}" needs approval.
+Получавате това известие, защото мнението "{POST_SUBJECT}" в "{SITENAME}" се нуждае от одобрение.
 
-If you want to view the post, click the following link:
+Ако искате да видите мнението, моля последвайте следната връзка:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Ако искате да видите темата, моля последвайте следната връзка:
 {U_TOPIC}
 
 {EMAIL_SIG}

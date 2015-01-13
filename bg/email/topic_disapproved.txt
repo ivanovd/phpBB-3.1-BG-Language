@@ -1,10 +1,10 @@
-Subject: Topic disapproved - "{TOPIC_TITLE}"
+Заглавие: Неодобрена тема - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because your topic "{TOPIC_TITLE}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Получавате това известие, защото темата Ви "{TOPIC_TITLE}" в "{SITENAME}" не беше одобрена от модератор или администратор.
 
-The following reason was given for the disapproval:
+Причината за неодобрението е следната:
 
 {REASON}
 

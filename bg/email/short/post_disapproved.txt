@@ -1,10 +1,10 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: Неодобрено мнение - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+Получавате това известие, защото мнението Ви "{POST_SUBJECT}" в "{SITENAME}" не беше одобрено от модератор или администратор.
 
-The following reason was given for the disapproval:
+Причината за неодобрението е следната:
 
 {REASON}
 

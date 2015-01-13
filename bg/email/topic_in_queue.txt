@@ -1,13 +1,13 @@
-Subject: Topic moderation notification - "{TOPIC_TITLE}"
+Заглавие: Известие за тема, нуждаеща се от одобрение - "{TOPIC_TITLE}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because the topic "{TOPIC_TITLE}" at "{SITENAME}" needs approval.
+Получавате това известие, защото темата "{TOPIC_TITLE}" в "{SITENAME}" се нуждае от одобрение.
 
-If you want to view the topic, click the following link:
+Ако искате да видите темата, моля последвайте следната връзка:
 {U_VIEW_TOPIC}
 
-If you want to view the forum, click the following link:
+Ако искате да видите форума, моля последвайте следната връзка:
 {U_FORUM}
 
 {EMAIL_SIG}

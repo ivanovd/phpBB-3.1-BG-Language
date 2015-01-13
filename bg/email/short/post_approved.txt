@@ -1,13 +1,13 @@
-Subject: Post approved - "{POST_SUBJECT}"
+Subject: Одобрено мнение - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because your post "{POST_SUBJECT}" at "{SITENAME}" was approved by a moderator or administrator.
+Получавате това известие, защото мнението Ви "{POST_SUBJECT}" в "{SITENAME}" беше одобрено от модератор или администратор.
 
-If you want to view the post, click the following link:
+Ако искате да видите мнението, моля последвайте следната връзка:
 {U_VIEW_POST}
 
-If you want to view the topic, click the following link:
+Ако искате да видите темата, моля последвайте следната връзка:
 {U_VIEW_TOPIC}
 
 {EMAIL_SIG}

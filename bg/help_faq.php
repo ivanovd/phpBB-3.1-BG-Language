@@ -116,40 +116,40 @@ $help = array(
 		1 => 'Проблеми с публикуването'
 	),
 	array(
-		0 => 'How do I create a new topic or post a reply?',
-		1 => 'To post a new topic in a forum, click "New Topic". To post a reply to a topic, click "Post Reply". You may need to register before you can post a message. A list of your permissions in each forum is available at the bottom of the forum and topic screens. Example: You can post new topics, You can post attachments, etc.',
+		0 => 'Как да създам нова тема или да публикувам отговор?',
+		1 => 'За да създадете нова тема във форум, натиснете бутона "Нова тема". За да отговорите на тема, натиснете бутона "Отговори". Може да е нужно да се регистрирате преди да можете да публикувате отговор или тема. Списък с вашите права във всеки форум е наличен най-долу на страницата с форумите. Например: Вие можете да публикувате теми в този форум, Вие можете да прикачвате файлове в този форум и т.н.',
 	),
 	array(
-		0 => 'How do I edit or delete a post?',
-		1 => 'Unless you are a board administrator or moderator, you can only edit or delete your own posts. You can edit a post by clicking the edit button for the relevant post, sometimes for only a limited time after the post was made. If someone has already replied to the post, you will find a small piece of text output below the post when you return to the topic which lists the number of times you edited it along with the date and time. This will only appear if someone has made a reply; it will not appear if a moderator or administrator edited the post, though they may leave a note as to why they’ve edited the post at their own discretion. Please note that normal users cannot delete a post once someone has replied.'
+		0 => 'Как да променя или изтрия мнение?',
+		1 => 'Освен ако не сте администратор или модератор, можете да променяте или изтривате само собствените си мнения. Можете да промените мнението си като натиснете бутона "Промени мнението" на съответното мнение, понякога този бутон е активен само за определено време след като е било публикувано мнението. Ако някой е отговорил на мнението Ви, под него ще се появи мелък текст с броя пъти, които сте променяли мнението, както и датата и часа. Този текст ще се появи само ако някой е отговорил на мнението Ви; той няма да се появи ако модератор или администратор променят мнението Ви, въпреки че могат да оставят коментар за причината за промяната на мнението Ви, ако преценят. Важно е да се отбележи, че обикновените потребители не могат да изтирват мненията си, ако някой им е отговорил.'
 	),
 	array(
-		0 => 'How do I add a signature to my post?',
-		1 => 'To add a signature to a post you must first create one via your User Control Panel. Once created, you can check the <em>Attach a signature</em> box on the posting form to add your signature. You can also add a signature by default to all your posts by checking the appropriate radio button in the User Control Panel. If you do so, you can still prevent a signature being added to individual posts by un-checking the add signature box within the posting form.'
+		0 => 'Как да добавя подпис към мненията си?',
+		1 => 'За да добавите подпис към мненията си, първо трябва да го създадете през Потребителския Контролен Панел. След като направите това, можете да изберете <em>Добави подпис</em> опцията при публикуване на мнение за да прикачите подписа си. Също така можете да добавяте подписа си по подразбиране към всички мнения като изберете съответния радио бутон в Потребителския Контролен Панел. Ако го направите, въпреки това ще можете да избирате дали подписът Ви да се прилага към индивидуални мнения като изберете съответната опция при публикуване.'
 	),
 	array(
-		0 => 'How do I create a poll?',
-		1 => 'When posting a new topic or editing the first post of a topic, click the “Poll creation” tab below the main posting form; if you cannot see this, you do not have appropriate permissions to create polls. Enter a title and at least two options in the appropriate fields, making sure each option is on a separate line in the textarea. You can also set the number of options users may select during voting under “Options per user”, a time limit in days for the poll (0 for infinite duration) and lastly the option to allow users to amend their votes.'
+		0 => 'Как да създам анкета?',
+		1 => 'Когато публикувате нова тема или променяте първото мнение на темата, изберете раздела “Създаване на анкета” под главната форма на мнението; ако не виждате този раздел, най-вероятно нямате права да създавате анкети. Въведете въпрос на анкетата и най-малко два възможни отговора в съответните полета, като се убедите, че всеки отговор е на отделен ред. Също така можете да избирате броя гласове, които потребителите могат да дават от полето “Брой гласове на потребител”, време, за което да е активна анкетата в дни (0 за винаги активна) и да настройвате възможността потребителите да променят гласа си.'
 	),
 	array(
-		0 => 'Why can’t I add more poll options?',
-		1 => 'The limit for poll options is set by the board administrator. If you feel you need to add more options to your poll than the allowed amount, contact the board administrator.'
+		0 => 'Защо не мога да добавя повече възможни отговори към анкетата?',
+		1 => 'Максималният брой възможни отговори се определя от администратора. Ако мислите, че Ви трябват повече от позволения брой възможни отговори, моля свържете се с администратора.'
 	),
 	array(
-		0 => 'How do I edit or delete a poll?',
-		1 => 'As with posts, polls can only be edited by the original poster, a moderator or an administrator. To edit a poll, click to edit the first post in the topic; this always has the poll associated with it. If no one has cast a vote, users can delete the poll or edit any poll option. However, if members have already placed votes, only moderators or administrators can edit or delete it. This prevents the poll’s options from being changed mid-way through a poll.'
+		0 => 'Как да променя или изтрия анкета?',
+		1 => 'Както и при мненията, анкетите могат да бъдат променяни само от автора, модератор или администратор. За да промените анкета, натиснете бутона "Промени мнението" на първото мнение в темата. Ако все още никой не е гласувал, можете да промените или изтриете възможен отговор, обаче, ако някой е гласувал, само модератор или администратор имат право да променят или изтрият възможния отговор. Така се предотвратява подмяната на гласове преди да е приключила анкетата.'
 	),
 	array(
-		0 => 'Why can’t I access a forum?',
-		1 => 'Some forums may be limited to certain users or groups. To view, read, post or perform another action you may need special permissions. Contact a moderator or board administrator to grant you access.'
+		0 => 'Защо не мога да достъпя даден форум?',
+		1 => 'Някои форуми може да са ограничени до определени потребители или групи. За да разглеждате, четете, публикувате или извършвате други действия ще са Ви нужни специални права. Свържете се с модератор или администратор за да Ви дадат нужните права.'
 	),
 	array(
-		0 => 'Why can’t I add attachments?',
-		1 => 'Attachment permissions are granted on a per forum, per group, or per user basis. The board administrator may not have allowed attachments to be added for the specific forum you are posting in, or perhaps only certain groups can post attachments. Contact the board administrator if you are unsure about why you are unable to add attachments.'
+		0 => 'Защо не мога да прикача файл?',
+		1 => 'Права за прикачване на файл се дават на ниво форум, група или потребител. Администраторът може да е забранил прикачването на файлове за форума, в който се опитвате да публикувате или само определени групи могат да прикачват файлове. Свържете се с администратора, ако не сте сигурни защо не можете да прикачвате файлове.'
 	),
 	array(
-		0 => 'Why did I receive a warning?',
-		1 => 'Each board administrator has their own set of rules for their site. If you have broken a rule, you may be issued a warning. Please note that this is the board administrator’s decision, and the phpBB Limited has nothing to do with the warnings on the given site. Contact the board administrator if you are unsure about why you were issued a warning.'
+		0 => 'Защо получих предупреждение?',
+		1 => 'Всеки форум има свой собствен набор от правила. Ако сте нарушили, някое от тези правила, то можете да получите предупреждение. Важно е да се отбележи, че това е решение на администратора и phpBB Limited няма нищо общо с издадените предупреждения. Свържете се с администратора на форума, ако не сте сигурен за какво сте били предупредени.'
 	),
 	array(
 		0 => 'How can I report posts to a moderator?',
