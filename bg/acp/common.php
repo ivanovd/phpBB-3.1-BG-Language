@@ -212,7 +212,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_WORDS'					=> 'Word censoring',
 
-	'ACTION'				=> 'Action',
+	'ACTION'				=> 'Действие',
 	'ACTIONS'				=> 'Actions',
 	'ACTIVATE'				=> 'Activate',
 	'ADD'					=> 'Add',
@@ -770,7 +770,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_REACTIVATE_USER'	=> '<strong>Forced user account reactivation</strong>',
 	'LOG_USER_UNLOCK'			=> '<strong>User unlocked own topic</strong><br />» %s',
 	'LOG_USER_WARNING'			=> '<strong>Added user warning</strong><br />» %s',
-	'LOG_USER_WARNING_BODY'		=> '<strong>The following warning was issued to this user</strong><br />» %s',
+	'LOG_USER_WARNING_BODY'		=> '<strong>Следното предупреждение е било издадено на този потребител</strong><br />» %s',
 
 	'LOG_USER_GROUP_CHANGE'			=> '<strong>User changed default group</strong><br />» %s',
 	'LOG_USER_GROUP_DEMOTE'			=> '<strong>User demoted as leaders from usergroup</strong><br />» %s',

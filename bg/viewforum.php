@@ -38,11 +38,11 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACTIVE_TOPICS'			=> 'Активни теми',
-	'ANNOUNCEMENTS'			=> 'Съобщения',
+	'ANNOUNCEMENTS'			=> 'Важни съобщения',
 
 	'FORUM_PERMISSIONS'		=> 'Права на форума',
 
-	'ICON_ANNOUNCEMENT'		=> 'Съобщение',
+	'ICON_ANNOUNCEMENT'		=> 'Важно съобщение',
 	'ICON_STICKY'			=> 'Закачена',
 
 	'LOGIN_NOTIFY_FORUM'	=> 'Бяхте уведомен за този форум, моля влезте в профила си за да го прегледате.',

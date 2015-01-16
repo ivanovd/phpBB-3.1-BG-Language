@@ -121,7 +121,7 @@ $help = array(
 	),
 	array(
 		0 => 'Как да променя или изтрия мнение?',
-		1 => 'Освен ако не сте администратор или модератор, можете да променяте или изтривате само собствените си мнения. Можете да промените мнението си като натиснете бутона "Промени мнението" на съответното мнение, понякога този бутон е активен само за определено време след като е било публикувано мнението. Ако някой е отговорил на мнението Ви, под него ще се появи мелък текст с броя пъти, които сте променяли мнението, както и датата и часа. Този текст ще се появи само ако някой е отговорил на мнението Ви; той няма да се появи ако модератор или администратор променят мнението Ви, въпреки че могат да оставят коментар за причината за промяната на мнението Ви, ако преценят. Важно е да се отбележи, че обикновените потребители не могат да изтирват мненията си, ако някой им е отговорил.'
+		1 => 'Освен ако не сте администратор или модератор, можете да променяте или изтривате само собствените си мнения. Можете да промените мнението си като натиснете бутона "Промени мнението" на съответното мнение, понякога този бутон е активен само за определено време след като е било публикувано мнението. Ако някой е отговорил на мнението Ви, под него ще се появи мелък текст с броя пъти, които сте променяли мнението, както и датата и часа; този текст няма да се появи ако модератор или администратор променят мнението Ви, въпреки че могат да оставят коментар за причината за промяната на мнението Ви, ако преценят. Важно е да се отбележи, че обикновените потребители не могат да изтирват мненията си, ако някой им е отговорил.'
 	),
 	array(
 		0 => 'Как да добавя подпис към мненията си?',
@@ -152,60 +152,60 @@ $help = array(
 		1 => 'Всеки форум има свой собствен набор от правила. Ако сте нарушили, някое от тези правила, то можете да получите предупреждение. Важно е да се отбележи, че това е решение на администратора и phpBB Limited няма нищо общо с издадените предупреждения. Свържете се с администратора на форума, ако не сте сигурен за какво сте били предупредени.'
 	),
 	array(
-		0 => 'How can I report posts to a moderator?',
-		1 => 'If the board administrator has allowed it, you should see a button for reporting posts next to the post you wish to report. Clicking this will walk you through the steps necessary to report the post.'
+		0 => 'Как мога да докладвам мнения на модератор?',
+		1 => 'Ако администратора го е позволил, би трябвало да видите бутон за докладване до мнението, което искате да докладвате. Натискайки го, ще трябва да следвате указаните стъпки за да докладвате мнението.'
 	),
 	array(
-		0 => 'What is the “Save” button for in topic posting?',
-		1 => 'This allows you to save drafts to be completed and submitted at a later date. To reload a saved draft, visit the User Control Panel.'
+		0 => 'Какво прави бутона “Запази чернова” при публикуване на мнение/тема?',
+		1 => 'Той Ви позволява да запазвате чернови, който могат да бъдат довършени и публикувани по-късно. За да заредите записана чернова, посетете Потребителския Контролен Панел.'
 	),
 	array(
-		0 => 'Why does my post need to be approved?',
-		1 => 'The board administrator may have decided that posts in the forum you are posting to require review before submission. It is also possible that the administrator has placed you in a group of users whose posts require review before submission. Please contact the board administrator for further details.'
+		0 => 'Защо мнението ми трябва да бъде одобрено?',
+		1 => 'Администраторът може да е решил, че мненията, които публикувате във форума се нуждаят от преглед преди да бъдат публикувани. Също така е възможно администратора да Ви е сложил в група с потребители, чиито мнения изискват одобрение преди да бъдат публикувани. Моля, свържете се с администратора за повече информация.'
 	),
 	array(
-		0 => 'How do I bump my topic?',
-		1 => 'By clicking the “Bump topic” link when you are viewing it, you can “bump” the topic to the top of the forum on the first page. However, if you do not see this, then topic bumping may be disabled or the time allowance between bumps has not yet been reached. It is also possible to bump the topic simply by replying to it, however, be sure to follow the board rules when doing so.'
+		0 => 'Как да избутам темата ми?',
+		1 => 'Като натиснете връзката “Избутай темата”, която се показва след като натиснете бутона “Инструменти за темата” (иконка с гаечен ключ) в темата, която искате да избутате. Така ще “избутате” темата най-горе на първа страница във форума, в който се намира. Ако не виждате тази връзка, то избутването може да е забранено или времето между избутванията не е изминало. Можете да избутате темата като просто публикувате нов отговор в нея, но преди това се уверете, че това не е в разрез с правилата на форума.'
 	),
 	array(
 		0 => '--',
-		1 => 'Formatting and Topic Types'
+		1 => 'Форматиране на текст и видове теми'
 	),
 	array(
-		0 => 'What is BBCode?',
-		1 => 'BBCode is a special implementation of HTML, offering great formatting control on particular objects in a post. The use of BBCode is granted by the administrator, but it can also be disabled on a per post basis from the posting form. BBCode itself is similar in style to HTML, but tags are enclosed in square brackets [ and ] rather than &lt; and &gt;. For more information on BBCode see the guide which can be accessed from the posting page.'
+		0 => 'Какво е BBCode?',
+		1 => 'BBCode е специална имплементация на HTML, която позволява широк контрол на форматирането на дадени обекти в мнението. Използването на BBCode се разрешава от администратора, но също така може да бъде забранено за всяко отделно мнение от формата за публикуване. BBCode сам по себе си е подобен на HTML, но таговете му са затворени в квадратни скоби [ и ], а не в &lt; и &gt;. За повече информация относно BBCode вижте упътването за BBCode, което можете да намерите във формата за публикуване.'
 	),
 	array(
-		0 => 'Can I use HTML?',
-		1 => 'No. It is not possible to post HTML on this board and have it rendered as HTML. Most formatting which can be carried out using HTML can be applied using BBCode instead.'
+		0 => 'Мога ли да използвам HTML?',
+		1 => 'Не. Не е възможно да публикувате HTML в този форум и той да се възпроизведе като такъв. Голяма част от форматирането, което се извършва с HTML, може да се постигне с прилагането на BBCode.'
 	),
 	array(
-		0 => 'What are Smilies?',
-		1 => 'Smilies, or Emoticons, are small images which can be used to express a feeling using a short code, e.g. :) denotes happy, while :( denotes sad. The full list of emoticons can be seen in the posting form. Try not to overuse smilies, however, as they can quickly render a post unreadable and a moderator may edit them out or remove the post altogether. The board administrator may also have set a limit to the number of smilies you may use within a post.'
+		0 => 'Какво са усмивките?',
+		1 => 'Усмивките, или Емотикони, са малки изображения, които могат да бъдат използвани за изразяване на чувства, използвайки кратък код, например :) означава щастие, докато :( означава тъга. Пълният лист с емотикони може да бъде видян във формата за публикуване. Опитайте се да не използвате прекалено много емотикони, защото мнението може да стане трудно четимо и модератор може да промени съдържанието му или направо да го изтрие. Администратора също така може да е задал лимит на максималния брой емотикони, които могат да се съдържат в едно мнение.'
 	),
 	array(
-		0 => 'Can I post images?',
-		1 => 'Yes, images can be shown in your posts. If the administrator has allowed attachments, you may be able to upload the image to the board. Otherwise, you must link to an image stored on a publicly accessible web server, e.g. http://www.example.com/my-picture.gif. You cannot link to pictures stored on your own PC (unless it is a publicly accessible server) nor images stored behind authentication mechanisms, e.g. hotmail or yahoo mailboxes, password protected sites, etc. To display the image use the BBCode [img] tag.'
+		0 => 'Мога ли да публикувам изображения?',
+		1 => 'Да, изображения могат да бъдат показвани във Вашите мнения. Ако администратора е разрешил прикачването на файлове, можете да прикачите снимка. Ако прикачването на файлове не е разрешено, то можете да публикувате снимка от публично достъпен сървър, например http://www.example.com/my-picture.gif. Не можете да публикувате снимка от връзка към локалния Ви компютър (освен ако той не е публично достъпен сървър), нито снимки, съхранявани зад механизъм за защита с парола, например hotmail или gmail пощи, сайтове, изискващи парола и т.н. За да се покаже изображението, трябва да използвате BBCode [img] тага.'
 	),
 	array(
-		0 => 'What are global announcements?',
-		1 => 'Global announcements contain important information and you should read them whenever possible. They will appear at the top of every forum and within your User Control Panel. Global announcement permissions are granted by the board administrator.'
+		0 => 'Какво е глобално съобщение?',
+		1 => 'Глобалните съобщения съдържат важна информация и трябва да ги прочетете, когато е възможно. Те ще се показват най-горе на всеки форум и във Вашия Потребителски Контролен Панел. Правата за създаване на глобални съобщения се дават от администратора.'
 	),
 	array(
-		0 => 'What are announcements?',
-		1 => 'Announcements often contain important information for the forum you are currently reading and you should read them whenever possible. Announcements appear at the top of every page in the forum to which they are posted. As with global announcements, announcement permissions are granted by the board administrator.'
+		0 => 'Какво е важно съобщение?',
+		1 => 'Важните съобщения, както подсказва името, често съдържат важна информация за форума, в който се намирате и трябва да ги прочетете, когато е възможно. Важните съобщения се показват най-горе на всяка страница на форума, в който са публикувани. Както и глобалните съобщения, правата за създаването им се дават от администратора.'
 	),
 	array(
-		0 => 'What are sticky topics?',
-		1 => 'Sticky topics within the forum appear below announcements and only on the first page. They are often quite important so you should read them whenever possible. As with announcements and global announcements, sticky topic permissions are granted by the board administrator.'
+		0 => 'Какво е закачена тема?',
+		1 => 'Закачените теми се показват под важните съобщения, но над всички други теми във форума и само на първа страница. Често те са доста важни или интересни, затова ги прочетете, когато е възможно. Както важните и глобалните съобщения, правата за създаването на закачени теми се дават от администратора.'
 	),
 	array(
-		0 => 'What are locked topics?',
-		1 => 'Locked topics are topics where users can no longer reply and any poll it contained was automatically ended. Topics may be locked for many reasons and were set this way by either the forum moderator or board administrator. You may also be able to lock your own topics depending on the permissions you are granted by the board administrator.'
+		0 => 'Какво е заключена тема?',
+		1 => 'Заключените теми са теми, в които потребителите не могат да публикуват нови мнения и всяка анкета в такава тема приключва автоматично. Темите могат да бъдат заключвани поради много причини и модераторите или администраторите са отговорни за това. Можете също така да заключвате собствените си теми, ако това е разрешено от администратора.'
 	),
 	array(
-		0 => 'What are topic icons?',
-		1 => 'Topic icons are author chosen images associated with posts to indicate their content. The ability to use topic icons depends on the permissions set by the board administrator.'
+		0 => 'Какво е иконка на темата?',
+		1 => 'Иконките на темите са изображения, избрани от автора, които се добавят към темата за да индикират по някакъв начин съдържанието й. Възможността за използване на иконки за теми зависи от администратора на форума.'
 	),
 	// This block will switch the FAQ-Questions to the second template column
 	array(
@@ -214,7 +214,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'User Levels and Groups'
+		1 => 'Потребителски нива и групи'
 	),
 	array(
 		0 => 'What are Administrators?',
@@ -250,7 +250,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Private Messaging'
+		1 => 'Лични съобщения'
 	),
 	array(
 		0 => 'I cannot send private messages!',
@@ -266,7 +266,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Friends and Foes'
+		1 => 'Приятели и врагове'
 	),
 	array(
 		0 => 'What are my Friends and Foes lists?',
@@ -278,7 +278,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Searching the Forums'
+		1 => 'Търсене във форума'
 	),
 	array(
 		0 => 'How can I search a forum or forums?',
@@ -302,7 +302,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Subscriptions and Bookmarks',
+		1 => 'Любими теми и абонаменти',
 	),
 	array(
 		0 => 'What is the difference between bookmarking and subscribing?',
@@ -322,7 +322,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'Attachments'
+		1 => 'Прикачени файлове'
 	),
 	array(
 		0 => 'What attachments are allowed on this board?',
@@ -334,7 +334,7 @@ $help = array(
 	),
 	array(
 		0 => '--',
-		1 => 'phpBB Issues',
+		1 => 'Проблеми с phpBB',
 	),
 	array(
 		0 => 'Who wrote this bulletin board?',
