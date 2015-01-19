@@ -86,7 +86,7 @@ $lang = array_merge($lang, array(
 	'RESULT_DAYS'			=> 'Ограничи резултатите до последните',
 	'RESULT_SORT'			=> 'Сортирай резултатите по',
 	'RETURN_FIRST'			=> 'Покажи първите',
-	'GO_TO_SEARCH_ADV'	=> 'Премини към сложно търсене',
+	'GO_TO_SEARCH_ADV'	=> 'Премини към разширено търсене',
 
 	'SEARCHED_FOR'				=> 'Търсена дума',
 	'SEARCHED_TOPIC'			=> 'Търсена тема',
