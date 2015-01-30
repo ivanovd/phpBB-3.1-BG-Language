@@ -217,64 +217,64 @@ $help = array(
 		1 => 'Потребителски нива и групи'
 	),
 	array(
-		0 => 'What are Administrators?',
-		1 => 'Administrators are members assigned with the highest level of control over the entire board. These members can control all facets of board operation, including setting permissions, banning users, creating usergroups or moderators, etc., dependent upon the board founder and what permissions he or she has given the other administrators. They may also have full moderator capabilities in all forums, depending on the settings put forth by the board founder.'
+		0 => 'Какво са Администраторите?',
+		1 => 'Администраторите са потребители, които имат най-високо ниво на контрол във форума. В зависимост от това, дали създателя на форума е дал съответните права, тези потребители могат да контролират всички възможни операции във форума, включително управление на правата, изгонените потребители, създаването на потребителски групи, назначаване на модератори и т.н. Също така, те могат да имат пълни модераторски права във всички форуми, отново, ако това им е позволено от създателя на форума.'
 	),
 	array(
-		0 => 'What are Moderators?',
-		1 => 'Moderators are individuals (or groups of individuals) who look after the forums from day to day. They have the authority to edit or delete posts and lock, unlock, move, delete and split topics in the forum they moderate. Generally, moderators are present to prevent users from going off-topic or posting abusive or offensive material.'
+		0 => 'Какво са Модераторите?',
+		1 => 'Модераторите са потребители (или група от потребители), които се грижат за форума всеки ден. Те имат правото да променят или изтриват мнения и да заключват, отключват, изтриват и разделят теми във форумите, които модерират. Обикновено модераторите следят потребителите да не се отклоняват от темата или да публикуват мнения, които са в разрез с правилата на форума.'
 	),
 	array(
-		0 => 'What are usergroups?',
-		1 => 'Usergroups are groups of users that divide the community into manageable sections board administrators can work with. Each user can belong to several groups and each group can be assigned individual permissions. This provides an easy way for administrators to change permissions for many users at once, such as changing moderator permissions or granting users access to a private forum.'
+		0 => 'Какво са потребителските групи?',
+		1 => 'Потребителските групи са групи от потребители, които разделят форума на по-малки управляеми единици, с които администраторите могат да работят. Всеки потребител може да членува в една или повече групи, като всяка група има определени права. Това предоставя на администраторите лесен начин за промяна на правата на много потребители наведнъж, като например даване на модераторски права или даване на достъп до скрит форум.'
 	),
 	array(
-		0 => 'Where are the usergroups and how do I join one?',
-		1 => 'You can view all usergroups via the “Usergroups” link within your User Control Panel. If you would like to join one, proceed by clicking the appropriate button. Not all groups have open access, however. Some may require approval to join, some may be closed and some may even have hidden memberships. If the group is open, you can join it by clicking the appropriate button. If a group requires approval to join you may request to join by clicking the appropriate button. The user group leader will need to approve your request and may ask why you want to join the group. Please do not harass a group leader if they reject your request; they will have their reasons.'
+		0 => 'Къде мога да видя потребителските групи и как да се присъединя към тях?',
+		1 => 'Можете да видите всички потребителски групи в раздела “Потребителски групи” в Потребителския Контролен Панел. Ако искате да се присъедините към някоя от групите, можете да го направите като изберете съответния бутон. Не всички групи са с отворен достъп. Някои от тях изискват одобрение за присъединяване, някои са затворени, а някои даже са невидими за другите потребители. Ако групата е с отворен достъп, можете да се присъедините към нея, чрез избиране на съответния бутон. Ако групата изисква одобрение на членството, то лидера на групата ще трябва да одобри членството Ви.'
 	),
 	array(
-		0 => 'How do I become a usergroup leader?',
-		1 => 'A usergroup leader is usually assigned when usergroups are initially created by a board administrator. If you are interested in creating a usergroup, your first point of contact should be an administrator; try sending a private message.',
+		0 => 'Как да стана лидер на група?',
+		1 => 'Лидер на групата обикновено се избира при създаването на групата от администратора. Ако искате да създадете група, първо трябва да се свържете с администратора, например чрез лично съобщение.',
 	),
 	array(
-		0 => 'Why do some usergroups appear in a different colour?',
-		1 => 'It is possible for the board administrator to assign a colour to the members of a usergroup to make it easy to identify the members of this group.'
+		0 => 'Защо някои групи са с различен цвят?',
+		1 => 'Администраторът може да задава различен цвят на потребителите от дадена група за по-лесно идентифициране на членовете на тази група.'
 	),
 	array(
-		0 => 'What is a “Default usergroup”?',
-		1 => 'If you are a member of more than one usergroup, your default is used to determine which group colour and group rank should be shown for you by default. The board administrator may grant you permission to change your default usergroup via your User Control Panel.'
+		0 => 'Какво е “Група по подразбиране”?',
+		1 => 'Ако сте член на повече от една потребителска група, Вашата група по подразбиране се използва за да се определи кой цвят и ранг трябва да се показват в профила Ви. Администраторът може да разреши или забрани промяната на групата по подразбиране от Потребителския Контролен Панел.'
 	),
 	array(
-		0 => 'What is “The team” link?',
-		1 => 'This page provides you with a list of board staff, including board administrators and moderators and other details such as the forums they moderate.'
+		0 => 'Каква е тази връзка “Екипът”?',
+		1 => 'Тази страница показва списък с потребителите, които поддържат форума - администратори, модератори, както и други подробности като това кой форум модерират и т.н.'
 	),
 	array(
 		0 => '--',
 		1 => 'Лични съобщения'
 	),
 	array(
-		0 => 'I cannot send private messages!',
-		1 => 'There are three reasons for this; you are not registered and/or not logged on, the board administrator has disabled private messaging for the entire board, or the board administrator has prevented you from sending messages. Contact a board administrator for more information.'
+		0 => 'Не мога да изпращам лични съобщения!',
+		1 => 'Има няколко възможни причини за това: не сте регистриран и/или не сте влезли в профила си, администраторът е забранил личните съобщения за всички или само за Вас. Свържете се с администратора за повече информация.'
 	),
 	array(
-		0 => 'I keep getting unwanted private messages!',
-		1 => 'You can automatically delete private messages from a user by using message rules within your User Control Panel. If you are receiving abusive private messages from a particular user, report the messages to the moderators; they have the power to prevent a user from sending private messages.'
+		0 => 'Получавам нежелани лични съобщения!',
+		1 => 'Можете автоматично да изтривате лични съобщения от определен потребител като създадете съотвеното правило в Потребителския Контролен Панел. Ако получавате обидни лични съобщения от даден потребител можете да докладвате съобщението на модераторите, които имат право да забранят на потребителя да изпраща лични съобщения.'
 	),
 	array(
-		0 => 'I have received a spamming or abusive email from someone on this board!',
-		1 => 'We are sorry to hear that. The email form feature of this board includes safeguards to try and track users who send such posts, so email the board administrator with a full copy of the email you received. It is very important that this includes the headers that contain the details of the user that sent the email. The board administrator can then take action.'
+		0 => 'Получих спам или обиден емейл от някой от този форум!',
+		1 => 'Съжаляваме да чуем това. Формата за изпращане на емейли от форума включва предпазни механизми, които следят потребителите, които изпращат такива съобщения, затова, моля изпратете на администратора копие на емейла, който сте получили. Много е важно да включите и хедърите, които съдържат пълните детайли на изпращача, за да може администраторът да предприеме действия.'
 	),
 	array(
 		0 => '--',
 		1 => 'Приятели и врагове'
 	),
 	array(
-		0 => 'What are my Friends and Foes lists?',
-		1 => 'You can use these lists to organise other members of the board. Members added to your friends list will be listed within your User Control Panel for quick access to see their online status and to send them private messages. Subject to template support, posts from these users may also be highlighted. If you add a user to your foes list, any posts they make will be hidden by default.'
+		0 => 'Какви са тези списъци с Приятели и Врагове?',
+		1 => 'Можете да използвате тези списъци за да организирате познанствата си във форума. Потребителите добавени в списъка Ви с приятели ще бъдат видими в Потребителския Контролен Панел за бърз достъп, където ще можете да виждате дали са на линия и да им пращате лични съобщения. Ако се поддържа от темата (скина) на форума, мненията и съобщенията от приятели могат да бъдат оцветени с различен цвят. Ако добавите потребител в списъка си с врагове, всички негови мнения ще бъдат скрити по подразбиране.'
 	),
 	array(
-		0 => 'How can I add / remove users to my Friends or Foes list?',
-		1 => 'You can add users to your list in two ways. Within each user’s profile, there is a link to add them to either your Friend or Foe list. Alternatively, from your User Control Panel, you can directly add users by entering their member name. You may also remove users from your list using the same page.'
+		0 => 'Как мога да добавя / премахна потребител от списъка с Приятели или Врагове?',
+		1 => 'Можете да добавите потребител към списъците по два начина. Единият е чрез съответните връзки в профила на потребителя, а другият начин е през Потребителския Контролен Панел, където директно можете да добавяте потребители като изписвате потребителските им имена. От същата страница можете да премахнете потребители от списъка.'
 	),
 	array(
 		0 => '--',

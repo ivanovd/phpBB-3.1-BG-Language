@@ -47,6 +47,6 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Частен reCaptcha ключ',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'Вашият частен reCaptcha ключ. Ключа може да бъде взет от <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'За да предотвратим автоматичните регистрации и публикации, Ви молим да въведете и двете думи, показани на долното изображение.',
+	'RECAPTCHA_EXPLAIN'				=> 'За да предотвратим автоматичните регистрации и публикации, Ви молим да въведете всички символи от изображението.',
 	'RECAPTCHA_SOCKET_ERROR'		=> 'Има проблем с връзката към RECAPTCHA сървъра: не може да се отвори socket. Опитайте отново.',
 ));

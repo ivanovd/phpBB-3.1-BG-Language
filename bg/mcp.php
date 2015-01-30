@@ -123,7 +123,7 @@ $lang = array_merge($lang, array(
 	'LEAVE_SHADOW'				=> 'Остави темите в сянка на място',
 	'LIST_REPORTS'				=> array(
 		1	=> '%d доклад',
-		2	=> '%d доклади',
+		2	=> '%d доклада',
 	),
 	'LOCK'						=> 'Заключи',
 	'LOCK_POST_POST'			=> 'Заключи мнението',
