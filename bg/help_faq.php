@@ -281,24 +281,24 @@ $help = array(
 		1 => 'Търсене във форума'
 	),
 	array(
-		0 => 'How can I search a forum or forums?',
-		1 => 'Enter a search term in the search box located on the index, forum or topic pages. Advanced search can be accessed by clicking the “Advance Search” link which is available on all pages on the forum. How to access the search may depend on the style used.'
+		0 => 'Как мога да търся във форум или форуми?',
+		1 => 'Въведете ключова дума в полето за търсене, което се намира горе дясно на главната страница, форумите и темите. Можете да търсите в дадена тема или форум, като ползвате полето за търсене, което се намира до бутоните за публикуване на тема или мнение, когато се намирате съответно във форум или тема. Разширеното търсене е достъпно от бутона “Разширено търсене”, който се намира в дясно от полето за търсене. В зависимост от стила на форума, местоположението и функциите на полето за търсене могат да се различават.'
 	),
 	array(
-		0 => 'Why does my search return no results?',
-		1 => 'Your search was probably too vague and included many common terms which are not indexed by phpBB. Be more specific and use the options available within Advanced search.',
+		0 => 'Защо търсенето ми не връща резултати?',
+		1 => 'Най-вероятно търсената ключова фраза не е била конкретна и е съдържала твърде много общи термини, които не се индексират от phpBB. Бъдете по-специфични и използвайте настройките, които са достъпни в Разширеното търсене.',
 	),
 	array(
-		0 => 'Why does my search return a blank page!?',
-		1 => 'Your search returned too many results for the webserver to handle. Use “Advanced search” and be more specific in the terms used and forums that are to be searched.'
+		0 => 'Защо търсенето ми връща празна страница!?',
+		1 => 'Вашата заявка е върнала твърде много резултати, които не могат да се обработят от сървъра. Използвайте “Разширено търсене” и бъдете по-специфични с ключовите думи, използвани при търсенето, както и във форумите, в които се търси.'
 	),
 	array(
-		0 => 'How do I search for members?',
-		1 => 'Visit to the “Members” page and click the “Find a member” link.'
+		0 => 'Как да намеря даден потребител?',
+		1 => 'Последвайте връзката “Потребители” и след това “Намери потребител”.'
 	),
 	array(
-		0 => 'How can I find my own posts and topics?',
-		1 => 'Your own posts can be retrieved either by clicking the “Show your posts” link within the User Control Panel or by clicking the “Search user’s posts” link via your own profile page or by clicking the “Quick links” menu at the top of the board. To search for your topics, use the Advanced search page and fill in the various options appropriately.',
+		0 => 'Как мога да намеря собствените си мнения и теми?',
+		1 => 'Собствените Ви мнения можете да намерите като последвате връзката “Виж собствените си мнения” в Потребителския панел или “Търси в потребителските мнения” в профила Ви или като изберете “Виж собствените си мнения” от менюто с Бързи връзки. За да намерите темите си, използвайте Разширеното търсене и попълнете различните настройки.',
 	),
 	array(
 		0 => '--',
