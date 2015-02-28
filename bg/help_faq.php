@@ -305,51 +305,51 @@ $help = array(
 		1 => 'Любими теми и абонаменти',
 	),
 	array(
-		0 => 'What is the difference between bookmarking and subscribing?',
-		1 => 'In phpBB 3.0, bookmarking topics worked much like bookmarking in a web browser. You were not alerted when there was an update. As of phpBB 3.1, bookmarking is more like subscribing to a topic. You can be notified when a bookmarked topic is updated. Subscribing, however, will notify you when there is an update to a topic or forum on the board. Notification options for bookmarks and subscriptions can be configured in the User Control Panel, under “Board preferences”.',
+		0 => 'Каква е разликата между добавяне на любима тема и абонамент?',
+		1 => 'В phpBB версия 3.0, добавянето на любима тема работеше като добавянето на сайт в любими в уеб браузъра ви (bookmark). Не бивате уведомен когато темата е обновена. От phpBB версия 3.1 натам, добавянето на тема в любими е повече като абониране за тема. Можете да бъдете уведомен, когато тя е обновена. Абонамента, от друга страна, ще Ви уведоми когато тема или форум бъдат обновени (например публикувана е нова тема в някой под форум). Настройките за известяване за любими теми и абонаменти могат да бъдат променяни в Потребителския панел, раздел “Настройки на форума”.',
 	),
 	array(
-		0 => 'How do I bookmark or subscribe to specific topics?',
-		1 => 'You can bookmark or subscribe to a specific topic by clicking the appropriate link in the “Topic tools” menu, conveniently located near the top and bottom of a topic discussion.<br />Replying to a topic with the “Notify me when a reply is posted” option checked will also subscribe you to the topic.',
+		0 => 'Как да добавя тема в любими или да се абонирам за дадена тема(и)?',
+		1 => 'Можете да добавите тема в любими или да се абонирате за дадена тема като изберете съответната връзка в менюто “Инструменти за темата” (бутон с гаечен ключ намиращ се най-горе и най-долу на всяка тема).<br />Отговарянето на тема с включена опция “Уведоми ме при нов отговор в темата” също ще Ви абонира за темата.',
 	),
 	array(
-		0 => 'How do I subscribe to specific forums?',
-		1 => 'To subscribe to a specific forum, click the “Subscribe forum” link, at the bottom of page, upon entering the forum.',
+		0 => 'Как да се абонирам за даден форум(и)?',
+		1 => 'За да се абонирате за цял форум/раздел, натиснете връзката “Абониране за форума”, която се намира в лентата най-долу на страницата при отваряне на дадения форум/раздел.',
 	),
 	array(
-		0 => 'How do I remove my subscriptions?',
-		1 => 'To remove your subscriptions, go to your User Control Panel and follow the links to your subscriptions.'
+		0 => 'Как да прекратя абонаментите си?',
+		1 => 'За да прекратите абонаментите си отидете в Потребителския панел и последвайте връзката Управление на абонаментите.'
 	),
 	array(
 		0 => '--',
 		1 => 'Прикачени файлове'
 	),
 	array(
-		0 => 'What attachments are allowed on this board?',
-		1 => 'Each board administrator can allow or disallow certain attachment types. If you are unsure what is allowed to be uploaded, contact the board administrator for assistance.'
+		0 => 'Какви прикачени файлове са позволени в този форум?',
+		1 => 'Всеки администратор може да разреши или забрани определени типове файлове. Ако не сте сигурни какво е позволено да бъде прикачвано, моля свържете се с Администратора за помощ.'
 	),
 	array(
-		0 => 'How do I find all my attachments?',
-		1 => 'To find your list of attachments that you have uploaded, go to your User Control Panel and follow the links to the attachments section.'
+		0 => 'Как да намеря всички файлове, които съм прикачвал?',
+		1 => 'За да видите списък с файловете, които сте прикачвали, отидете в Потребителския панел и последвайте връзката Управление на прикачените файлове.'
 	),
 	array(
 		0 => '--',
 		1 => 'Проблеми с phpBB',
 	),
 	array(
-		0 => 'Who wrote this bulletin board?',
-		1 => 'This software (in its unmodified form) is produced, released and is copyright <a href="https://www.phpbb.com/">phpBB Limited</a>. It is made available under the GNU General Public License, version 2 (GPL-2.0) and may be freely distributed. See <a href="https://www.phpbb.com/about/">About phpBB</a> for more details.',
+		0 => 'Кой е написал тази форумна платформа?',
+		1 => 'Този софтуер (в неговата немодифицирана форма) е произведен, публикуван и защитен от копиране от <a href="https://www.phpbb.com/">phpBB Limited</a>. Разпространява се под GNU General Public лиценз, версия 2 (GPL-2.0) и може да бъде свободно дистрибутиран. Посетете <a href="https://www.phpbb.com/about/">За phpBB</a> за повече информация.',
 	),
 	array(
-		0 => 'Why isn’t X feature available?',
-		1 => 'This software was written by and licensed through phpBB Limited. If you believe a feature needs to be added please visit the <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a>, where you can upvote existing ideas or suggest new features.'
+		0 => 'Защо я няма функцията X?',
+		1 => 'Този софтуер е написан и лицензиран от phpBB Limited. Ако мислите, че дадена функция трябва да бъде добавена, моля посетете <a href="https://www.phpbb.com/ideas/">phpBB център за идеи</a>, където можете да гласувате за съществуващи идеи или да предложите нови функции.'
 	),
 	array(
-		0 => 'Who do I contact about abusive and/or legal matters related to this board?',
-		1 => 'Any of the administrators listed on the “The team” page should be an appropriate point of contact for your complaints. If this still gets no response then you should contact the owner of the domain (do a <a href="http://www.google.com/search?q=whois">whois lookup</a>) or, if this is running on a free service (e.g. Yahoo!, free.fr, f2s.com, etc.), the management or abuse department of that service. Please note that the phpBB Limited has <strong>absolutely no jurisdiction</strong> and cannot in any way be held liable over how, where or by whom this board is used. Do not contact the phpBB Limited in relation to any legal (cease and desist, liable, defamatory comment, etc.) matter <strong>not directly related</strong> to the phpBB.com website or the discrete software of phpBB itself. If you do email phpBB Limited <strong>about any third party</strong> use of this software then you should expect a terse response or no response at all.'
+		0 => 'С кого да се свържа във връзка с нелегално и/или неморално съдържание в този форум?',
+		1 => 'Всеки от администраторите, показани в списъка на страницата “Екипът”, биха могли да отговорят на Вашите оплаквания. Ако не получите отговор, то можете да се свържете със собственика на домейна (направете <a href="http://www.google.com/search?q=whois">справка</a>) или ако се хоства на безплатен хостинг (например Yahoo!, free.fr, f2s.com, и т.н.), управата или отдела за оплаквания на този доставчик. Обърнете внимание, че phpBB Limited няма <strong>абсолютно никаква юрисдикция</strong> и не може по никакъв начин да бъде държана отговорна за това как, къде или от кого се използва тази платформа. Не се свързвайте с phpBB Limited във връзка с юридически въпроси, които не са <strong>директно свързани</strong> със сайта phpBB.com или софтуера phpBB. Ако напишете емейл до phpBB Limited <strong>във връзка с трета страна</strong> използваща софтуера, то очаквайте кратък или никакъв отговор.'
 	),
 	array(
-		0 => 'How do I contact a board administrator?',
-		1 => 'All users of the board can use the “Contact us” form, if the option was enabled by the board administrator.<br />Members of the board can also use the “The team” link.',
+		0 => 'Как да се свържа с администратора на форума?',
+		1 => 'Всички потребители на форума могат да използват формата “Свържете се с нас”, ако тази функция е била разрешена от администратора.<br />Потребителите на форума могат също така да използват връзката “Екипът”.',
 	),
 );
