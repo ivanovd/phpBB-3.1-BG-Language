@@ -38,31 +38,31 @@ if (empty($lang) || !is_array($lang))
 
 // Email settings
 $lang = array_merge($lang, array(
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Here you can email a message to either all of your users or all users of a specific group <strong>having the option to receive mass emails enabled</strong>. To achieve this an email will be sent out to the administrative email address supplied, with a blind carbon copy sent to all recipients. The default setting is to only include 20 recipients in such an email, for more recipients more emails will be sent. If you are emailing a large group of people please be patient after submitting and do not stop the page halfway through. It is normal for a mass emailing to take a long time, you will be notified when the script has completed.',
-	'ALL_USERS'						=> 'All users',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'От тук можете да пращате емейл на всички потребители или на определена група от потребители <strong>стига тази група да е разрешила получаването на масови емейли</strong>. Изпратеният емейл ще е адресиран до административния адрес, който е посочен в настройките, а всички други потребители ще са в скрито копие. Настройката по подразбиране е емейлът да се изпраща само до 20 получателя, а при повече получатели ще се изпратят повече емейли. Ако изпращате съобщение до голяма група, моля бъдете търпеливи и не спирайте процеса по средата. Нормално е изпращането на масов емейл да отнема дълго време, ще бъдете уведомени, когато скриптът приключи изпращането.',
+	'ALL_USERS'						=> 'Всички потребители',
 
-	'COMPOSE'				=> 'Compose',
+	'COMPOSE'				=> 'Състави',
 
-	'EMAIL_SEND_ERROR'		=> 'There were one or more errors while sending the email. Please check the %sError log%s for detailed error messages.',
-	'EMAIL_SENT'			=> 'This message has been sent.',
-	'EMAIL_SENT_QUEUE'		=> 'This message has been queued for sending.',
+	'EMAIL_SEND_ERROR'		=> 'Имаше една или повече грешки при изпращането на емейла. Моля проверете %sЛога с грешки%s за подробно описание на грешките.',
+	'EMAIL_SENT'			=> 'Съобщението беше изпратено.',
+	'EMAIL_SENT_QUEUE'		=> 'Съобщението беше добавено в опашката за изпращане.',
 
-	'LOG_SESSION'			=> 'Log mail session to critical log',
+	'LOG_SESSION'			=> 'Записвай мейл сесиите в лога',
 
-	'SEND_IMMEDIATELY'		=> 'Send immediately',
-	'SEND_TO_GROUP'			=> 'Send to group',
-	'SEND_TO_USERS'			=> 'Send to users',
-	'SEND_TO_USERS_EXPLAIN'	=> 'Entering names here will override any group selected above. Enter each username on a new line.',
+	'SEND_IMMEDIATELY'		=> 'Изпрати веднага',
+	'SEND_TO_GROUP'			=> 'Изпрати до група',
+	'SEND_TO_USERS'			=> 'Изпрати до потребители',
+	'SEND_TO_USERS_EXPLAIN'	=> 'Добавянето на имена тук, ще отмени избраната група и ще изпрати емейла само до изброените потребители. Всяко потребителско име трябва да е на нов ред.',
 
-	'MAIL_BANNED'			=> 'Mail banned users',
-	'MAIL_BANNED_EXPLAIN'	=> 'When sending a mass email to a group you can select here whether banned users will also receive the email.',
-	'MAIL_HIGH_PRIORITY'	=> 'High',
-	'MAIL_LOW_PRIORITY'		=> 'Low',
-	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
-	'MAIL_PRIORITY'			=> 'Mail priority',
-	'MASS_MESSAGE'			=> 'Your message',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Please note that you may enter only plain text. All markup will be removed before sending.',
+	'MAIL_BANNED'			=> 'Изпрати и до изгонените потребители',
+	'MAIL_BANNED_EXPLAIN'	=> 'Когато изпращате масов емейл до група можете да избирате дали изгонените потребители да го получат или не.',
+	'MAIL_HIGH_PRIORITY'	=> 'Висок',
+	'MAIL_LOW_PRIORITY'		=> 'Нисък',
+	'MAIL_NORMAL_PRIORITY'	=> 'Нормален',
+	'MAIL_PRIORITY'			=> 'Приоритет',
+	'MASS_MESSAGE'			=> 'Вашето съобщение',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Обърнете внимание, че можете да въвеждате само чист текст. Всяко форматиране ще бъде премахнато преди изпращане.',
 
-	'NO_EMAIL_MESSAGE'		=> 'You must enter a message.',
-	'NO_EMAIL_SUBJECT'		=> 'You must specify a subject for your message.',
+	'NO_EMAIL_MESSAGE'		=> 'Трябва да въведете съобщение.',
+	'NO_EMAIL_SUBJECT'		=> 'Трябва да въведете заглавие на съобщението.',
 ));
