@@ -145,7 +145,7 @@ $lang = array_merge($lang, array(
 	'BUTTON_POST_REPLY'		=> 'Отговори',
 	'BUTTON_QUOTE'			=> 'Цитат',
 	'BUTTON_TOPIC_LOCKED'	=> 'Заключена',
-	'BYTES'					=> 'Байтове',
+	'BYTES'					=> 'Байта',
 	'BYTES_SHORT'			=> 'Б',
 
 	'CANCEL'				=> 'Откажи',
@@ -282,8 +282,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'Потребителското име, използвано за връзка със сървъра.',
 
 	'GENERAL_ERROR'				=> 'Обща грешка',
-	'GB'						=> 'GB',
-	'GIB'						=> 'GiB',
+	'GB'						=> 'ГБ',
+	'GIB'						=> 'ГБ',
 	'GO'						=> 'Go',
 	'GOOGLEPLUS'				=> 'Google+',
 	'GOTO_FIRST_POST'			=> 'Отиди на първото мнение',
@@ -348,7 +348,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_PAGE_CLICK'	=> 'Кликнете за да преминете на страница…',
 
 	'KB'					=> 'KБ',
-	'KIB'					=> 'KиБ',
+	'KIB'					=> 'KБ',
 
 	'LAST_POST'							=> 'Последно мнение',
 	'LAST_UPDATED'						=> 'Последно обновена',
@@ -391,7 +391,7 @@ $lang = array_merge($lang, array(
 	'MARK_READ'				=> 'Маркирай като прочетено',
 	'MARK_SUBFORUMS_READ'	=> 'Маркирай подфорумите като прочетени',
 	'MB'					=> 'МБ',
-	'MIB'					=> 'MiB',
+	'MIB'					=> 'MБ',
 	'MCP'					=> 'Модераторски Панел',
 	'MCP_SHORT'				=> 'МКП',
 	'MEMBERLIST'			=> 'Потребители',

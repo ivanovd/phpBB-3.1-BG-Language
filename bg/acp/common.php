@@ -41,8 +41,8 @@ $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Administrators',
 	'ACP_ADMIN_LOGS'			=> 'Admin log',
 	'ACP_ADMIN_ROLES'			=> 'Admin roles',
-	'ACP_ATTACHMENTS'			=> 'Attachments',
-	'ACP_ATTACHMENT_SETTINGS'	=> 'Attachment settings',
+	'ACP_ATTACHMENTS'			=> 'Прикачени файлове',
+	'ACP_ATTACHMENT_SETTINGS'	=> 'Настройки на прикачените файлове',
 	'ACP_AUTH_SETTINGS'			=> 'Authentication',
 	'ACP_AUTOMATION'			=> 'Automation',
 	'ACP_AVATAR_SETTINGS'		=> 'Avatar settings',
@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW_USERNAMES'	=> 'Disallow usernames',
 
 	'ACP_EMAIL_SETTINGS'		=> 'Email settings',
-	'ACP_EXTENSION_GROUPS'		=> 'Manage attachment extension groups',
+	'ACP_EXTENSION_GROUPS'		=> 'Управление на групите разширения',
 	'ACP_EXTENSION_MANAGEMENT'	=> 'Extension management',
 	'ACP_EXTENSIONS'			=> 'Manage extensions',
 
@@ -122,10 +122,10 @@ $lang = array_merge($lang, array(
 
 	'ACP_MAIN'					=> 'ACP index',
 
-	'ACP_MANAGE_ATTACHMENTS'			=> 'Manage attachments',
-	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Here you can list and delete files attached to posts and private messages.',
+	'ACP_MANAGE_ATTACHMENTS'			=> 'Управление на прикачените файлове',
+	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> 'Тук можете да видите списък с прикачените файлове и да изтривате файлове прикачени към мнения и лични съобщения.',
 
-	'ACP_MANAGE_EXTENSIONS'		=> 'Manage attachment extensions',
+	'ACP_MANAGE_EXTENSIONS'		=> 'Управление на разширенията',
 	'ACP_MANAGE_FORUMS'			=> 'Manage forums',
 	'ACP_MANAGE_RANKS'			=> 'Manage ranks',
 	'ACP_MANAGE_REASONS'		=> 'Manage report/denial reasons',
@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_NO_ITEMS'				=> 'There are no items yet.',
 
-	'ACP_ORPHAN_ATTACHMENTS'	=> 'Orphaned attachments',
+	'ACP_ORPHAN_ATTACHMENTS'	=> 'Неизползвани прикачени файлове',
 
 	'ACP_PERMISSIONS'			=> 'Permissions',
 	'ACP_PERMISSION_MASKS'		=> 'Permission masks',
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_FORUM_PERMISSIONS'	=> 'User forum permissions',
 	'ACP_USERS_LOGS'				=> 'User logs',
 	'ACP_USERS_PERMISSIONS'			=> 'User permissions',
-	'ACP_USER_ATTACH'				=> 'Attachments',
+	'ACP_USER_ATTACH'				=> 'Прикачени файлове',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Feedback',
 	'ACP_USER_GROUPS'				=> 'Groups',
@@ -213,9 +213,9 @@ $lang = array_merge($lang, array(
 	'ACP_WORDS'					=> 'Word censoring',
 
 	'ACTION'				=> 'Действие',
-	'ACTIONS'				=> 'Actions',
-	'ACTIVATE'				=> 'Activate',
-	'ADD'					=> 'Add',
+	'ACTIONS'				=> 'Действия',
+	'ACTIVATE'				=> 'Активирай',
+	'ADD'					=> 'Добави',
 	'ADMIN'					=> 'Administration',
 	'ADMIN_INDEX'			=> 'Admin index',
 	'ADMIN_PANEL'			=> 'Administration Control Panel',
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 	'ADM_LOGOUT'			=> 'ACP&nbsp;Logout',
 	'ADM_LOGGED_OUT'		=> 'Successfully logged out from Administration Control Panel',
 
-	'BACK'					=> 'Back',
+	'BACK'					=> 'Назад',
 
 	'COLOUR_SWATCH'			=> 'Web-safe colour swatch',
 	'CONFIG_UPDATED'		=> 'Configuration updated successfully.',
@@ -278,8 +278,8 @@ $lang = array_merge($lang, array(
 	'NO_FILES_TO_DELETE'	=> 'Attachments you selected for deletion do not exist.',
 	'NO_PASSWORD_SUPPLIED'	=> 'You need to enter your password to access the Administration Control Panel.',
 
-	'OFF'					=> 'Off',
-	'ON'					=> 'On',
+	'OFF'					=> 'Изключено',
+	'ON'					=> 'Включено',
 
 	'PARSE_BBCODE'						=> 'Parse BBCode',
 	'PARSE_SMILIES'						=> 'Parse smilies',

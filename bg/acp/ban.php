@@ -38,47 +38,47 @@ if (empty($lang) || !is_array($lang))
 
 // Banning
 $lang = array_merge($lang, array(
-	'1_HOUR'		=> '1 hour',
-	'30_MINS'		=> '30 minutes',
-	'6_HOURS'		=> '6 hours',
+	'1_HOUR'		=> '1 час',
+	'30_MINS'		=> '30 минути',
+	'6_HOURS'		=> '6 часа',
 
-	'ACP_BAN_EXPLAIN'	=> 'Here you can control the banning of users by name, IP or email address. These methods prevent a user reaching any part of the board. You can give a short (maximum 3000 characters) reason for the ban if you wish. This will be displayed in the admin log. The duration of a ban can also be specified. If you want the ban to end on a specific date rather than after a set time period select <span style="text-decoration: underline;">Until -&gt;</span> for the ban length and enter a date in <kbd>YYYY-MM-DD</kbd> format.',
+	'ACP_BAN_EXPLAIN'	=> 'От тук можете да контролирате изгонването на потребители по потребителско име, IP адрес или емейл адрес. Тези методи предотвратяват достигането на коя да е част от форума от потребителя. Можете да укажете кратка (до 3000 символа) причина за изгонването, ако желаете. Това ще бъде отразено в админ лога. Времетраенето на изгонването също може да бъде зададено. Ако искате изгонването да бъде до специфична дата, вместо определен период от време, то изберете <span style="text-decoration: underline;">До -&gt;</span> за продължителност на изгонването и въведете датата във формат <kbd>ГГГГ-ММ-ДД</kbd>.',
 
-	'BAN_EXCLUDE'			=> 'Exclude from banning',
-	'BAN_LENGTH'			=> 'Length of ban',
-	'BAN_REASON'			=> 'Reason for ban',
-	'BAN_GIVE_REASON'		=> 'Reason shown to the banned',
-	'BAN_UPDATE_SUCCESSFUL'	=> 'The banlist has been updated successfully.',
-	'BANNED_UNTIL_DATE'		=> 'until %s', // Example: "until Mon 13.Jul.2009, 14:44"
-	'BANNED_UNTIL_DURATION'	=> '%1$s (until %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+	'BAN_EXCLUDE'			=> 'Изключи от изгонване',
+	'BAN_LENGTH'			=> 'Продължителност на изгонването',
+	'BAN_REASON'			=> 'Причина за изгонването',
+	'BAN_GIVE_REASON'		=> 'Причина, която се показва на изгонения',
+	'BAN_UPDATE_SUCCESSFUL'	=> 'Списъкът с изгонени беше обновен успешно.',
+	'BANNED_UNTIL_DATE'		=> 'до %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (до %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> 'Ban one or more email addresses',
-	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered email address from all current bans.',
-	'EMAIL_BAN_EXPLAIN'			=> 'To specify more than one email address enter each on a new line. To match partial addresses use * as the wildcard, e.g. <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.',
-	'EMAIL_NO_BANNED'			=> 'No banned email addresses',
-	'EMAIL_UNBAN'				=> 'Un-ban or un-exclude emails',
-	'EMAIL_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple email addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded email addresses are emphasised.',
+	'EMAIL_BAN'					=> 'Изгони един или повече емейл адреси',
+	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Включете това за да изключите въведения емейл адрес от всички изгонвания.',
+	'EMAIL_BAN_EXPLAIN'			=> 'За да укажете повече от един емейл адрес въведете всеки адрес на отделен ред. Можете да използвате * като заместващ символ, например <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, и т.н.',
+	'EMAIL_NO_BANNED'			=> 'Няма изгонени емейл адреси',
+	'EMAIL_UNBAN'				=> 'Отмени изгонване или изключи емейл адреси',
+	'EMAIL_UNBAN_EXPLAIN'		=> 'Можете да отмените изгонване (или да изключите) на няколко емейл адреса наведнъж, използвайки съответните комбинации с клавиатура и мишка за Вашия компютър и браузър. Маркираните емейл адреси имат син фон.',
 
-	'IP_BAN'					=> 'Ban one or more IPs',
-	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered IP from all current bans.',
-	'IP_BAN_EXPLAIN'			=> 'To specify several different IPs or hostnames enter each on a new line. To specify a range of IP addresses separate the start and end with a hyphen (-), to specify a wildcard use “*”.',
-	'IP_HOSTNAME'				=> 'IP addresses or hostnames',
-	'IP_NO_BANNED'				=> 'No banned IP addresses',
-	'IP_UNBAN'					=> 'Un-ban or un-exclude IPs',
-	'IP_UNBAN_EXPLAIN'			=> 'You can unban (or un-exclude) multiple IP addresses in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded IPs are emphasised.',
+	'IP_BAN'					=> 'Изгони един или повече IP адреса',
+	'IP_BAN_EXCLUDE_EXPLAIN'	=> 'Включете това за да изключите въведения IP адрес от всички изгонвания.',
+	'IP_BAN_EXPLAIN'			=> 'За да укажете повече от един IP адрес или хост въведете всеки адрес на отделен ред. За да зададете диапазон IP адреси разделете началния и крайния адрес с тире (-) или използвайте заместващия символ “*”',
+	'IP_HOSTNAME'				=> 'IP адреси или хостове',
+	'IP_NO_BANNED'				=> 'Няма изгонени IP адреси',
+	'IP_UNBAN'					=> 'Отмени изгонване или изключи IP адрес',
+	'IP_UNBAN_EXPLAIN'			=> 'Можете да отмените изгонване (или да изключите) на няколко IP адреса наведнъж, използвайки съответните комбинации с клавиатура и мишка за Вашия компютър и браузър. Маркираните IP адреси имат син фон.',
 
-	'LENGTH_BAN_INVALID'		=> 'The date has to be formatted <kbd>YYYY-MM-DD</kbd>.',
+	'LENGTH_BAN_INVALID'		=> 'Датата трябва да е във формат <kbd>ГГГГ-ММ-ДД</kbd>.',
 
-	'OPTIONS_BANNED'			=> 'Banned',
-	'OPTIONS_EXCLUDED'			=> 'Excluded',
+	'OPTIONS_BANNED'			=> 'Изгонени',
+	'OPTIONS_EXCLUDED'			=> 'Изключен',
 
-	'PERMANENT'		=> 'Permanent',
+	'PERMANENT'		=> 'За постоянно',
 
-	'UNTIL'						=> 'Until',
-	'USER_BAN'					=> 'Ban one or more users by username',
-	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Enable this to exclude the entered users from all current bans.',
-	'USER_BAN_EXPLAIN'			=> 'You can ban multiple users in one go by entering each name on a new line. Use the <span style="text-decoration: underline;">Find a member</span> facility to look up and add one or more users automatically.',
-	'USER_NO_BANNED'			=> 'No banned usernames',
-	'USER_UNBAN'				=> 'Un-ban or un-exclude users by username',
-	'USER_UNBAN_EXPLAIN'		=> 'You can unban (or un-exclude) multiple users in one go using the appropriate combination of mouse and keyboard for your computer and browser. Excluded users are emphasised.',
+	'UNTIL'						=> 'До',
+	'USER_BAN'					=> 'Изгони едно или повече потребителски имена',
+	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Включете това за да изключите въведените потребителски имена от всички изгонвания.',
+	'USER_BAN_EXPLAIN'			=> 'Можете да изгонвате повече от едно потребителско име наведнъж като въвеждате всяко от тях на нов ред. Използвайте <span style="text-decoration: underline;">Намери потребител</span> функцията за да намерите и добавите един или повече потребители автоматично.',
+	'USER_NO_BANNED'			=> 'Няма изгонени потребителски имена',
+	'USER_UNBAN'				=> 'Отмени изгонване или изключи по потребителско име',
+	'USER_UNBAN_EXPLAIN'		=> 'Можете да отмените изгонване (или да изключите) на няколко потребителя наведнъж, използвайки съответните комбинации с клавиатура и мишка за Вашия компютър и браузър. Маркираните потребителски имена имат син фон.',
 ));
