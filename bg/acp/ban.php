@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'BANNED_UNTIL_DATE'		=> 'до %s', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (до %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
-	'EMAIL_BAN'					=> 'Изгони един или повече емейл адреси',
+	'EMAIL_BAN'					=> 'Изгони един или повече емейл адреса',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Включете това за да изключите въведения емейл адрес от всички изгонвания.',
 	'EMAIL_BAN_EXPLAIN'			=> 'За да укажете повече от един емейл адрес въведете всеки адрес на отделен ред. Можете да използвате * като заместващ символ, например <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, и т.н.',
 	'EMAIL_NO_BANNED'			=> 'Няма изгонени емейл адреси',
