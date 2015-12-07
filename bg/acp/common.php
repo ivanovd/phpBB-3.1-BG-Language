@@ -342,13 +342,13 @@ $lang = array_merge($lang, array(
 	'ADMIN_INTRO'				=> 'Thank you for choosing phpBB as your board solution. This screen will give you a quick overview of all the various statistics of your board. The links on the left hand side of this screen allow you to control every aspect of your board experience. Each page will have instructions on how to use the tools.',
 	'ADMIN_LOG'					=> 'Logged administrator actions',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'This gives an overview of the last five actions carried out by board administrators. A full copy of the log can be viewed from the appropriate menu item or following the link below.',
-	'AVATAR_DIR_SIZE'			=> 'Avatar directory size',
+	'AVATAR_DIR_SIZE'			=> 'Размер на директорията с аватари',
 
-	'BOARD_STARTED'		=> 'Board started',
-	'BOARD_VERSION'		=> 'Board version',
+	'BOARD_STARTED'		=> 'Начална дата на форума',
+	'BOARD_VERSION'		=> 'Версия на форума',
 
-	'DATABASE_SERVER_INFO'	=> 'Database server',
-	'DATABASE_SIZE'			=> 'Database size',
+	'DATABASE_SERVER_INFO'	=> 'Сървър на базите данни',
+	'DATABASE_SIZE'			=> 'Размер на базата данни',
 
 	// Enviroment configuration checks, mbstring related
 	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Function overloading is improperly configured',
@@ -360,22 +360,22 @@ $lang = array_merge($lang, array(
 	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion is improperly configured',
 	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> must be set to <samp>pass</samp>. You can check the current value on the <samp>PHP information</samp> page.',
 
-	'FILES_PER_DAY'		=> 'Attachments per day',
-	'FORUM_STATS'		=> 'Board statistics',
+	'FILES_PER_DAY'		=> 'Прикачени файлове на ден',
+	'FORUM_STATS'		=> 'Статистика на форума',
 
-	'GZIP_COMPRESSION'	=> 'GZip compression',
+	'GZIP_COMPRESSION'	=> 'GZip компресия',
 
 	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
 	'NOT_AVAILABLE'		=> 'Not available',
-	'NUMBER_FILES'		=> 'Number of attachments',
-	'NUMBER_POSTS'		=> 'Number of posts',
-	'NUMBER_TOPICS'		=> 'Number of topics',
-	'NUMBER_USERS'		=> 'Number of users',
-	'NUMBER_ORPHAN'		=> 'Orphan attachments',
+	'NUMBER_FILES'		=> 'Брой прикачени файлове',
+	'NUMBER_POSTS'		=> 'Брой мнения',
+	'NUMBER_TOPICS'		=> 'Брой теми',
+	'NUMBER_USERS'		=> 'Брой потребители',
+	'NUMBER_ORPHAN'		=> 'Неизползвани прикачени файлове',
 
 	'PHP_VERSION_OLD'	=> 'The version of PHP on this server will no longer be supported by future versions of phpBB. %sDetails%s',
 
-	'POSTS_PER_DAY'		=> 'Posts per day',
+	'POSTS_PER_DAY'		=> 'Мнения на ден',
 
 	'PURGE_CACHE'			=> 'Purge the cache',
 	'PURGE_CACHE_CONFIRM'	=> 'Are you sure you wish to purge the cache?',
@@ -407,23 +407,23 @@ $lang = array_merge($lang, array(
 	'RESYNC_STATS_SUCCESS'			=> 'Resynchronised statistics',
 	'RUN'							=> 'Run now',
 
-	'STATISTIC'					=> 'Statistic',
+	'STATISTIC'					=> 'Статистика',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Resynchronise or reset statistics',
 
 	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
 	'TIMEZONE_SELECTED'	=> '(currently selected)',
-	'TOPICS_PER_DAY'	=> 'Topics per day',
+	'TOPICS_PER_DAY'	=> 'Теми на ден',
 
-	'UPLOAD_DIR_SIZE'	=> 'Size of posted attachments',
-	'USERS_PER_DAY'		=> 'Users per day',
+	'UPLOAD_DIR_SIZE'	=> 'Общ размер на прикачените файлове',
+	'USERS_PER_DAY'		=> 'Потребители на ден',
 
-	'VALUE'						=> 'Value',
+	'VALUE'						=> 'Стойност',
 	'VERSIONCHECK_FAIL'			=> 'Failed to obtain latest version information.',
-	'VERSIONCHECK_FORCE_UPDATE'	=> 'Re-Check version',
+	'VERSIONCHECK_FORCE_UPDATE'	=> 'провери за по-нова версия',
 	'VIEW_ADMIN_LOG'			=> 'View administrator log',
 	'VIEW_INACTIVE_USERS'		=> 'View inactive users',
 
-	'WELCOME_PHPBB'			=> 'Welcome to phpBB',
+	'WELCOME_PHPBB'			=> 'Добре дошли в phpBB',
 	'WRITABLE_CONFIG'		=> 'Your config file (config.php) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
