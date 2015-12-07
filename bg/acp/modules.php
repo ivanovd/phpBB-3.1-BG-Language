@@ -37,10 +37,10 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Here you are able to manage all kind of modules. Please note that the ACP has a three-level menu structure (Category -> Category -> Module) whereby the others having a two-level menu structure (Category -> Module) which must be kept. Please also be aware that you may lock out yourself if you disable or delete the modules responsible for the module management itself.',
-	'ADD_MODULE'					=> 'Add module',
-	'ADD_MODULE_CONFIRM'			=> 'Are you sure you want to add the selected module with the selected mode?',
-	'ADD_MODULE_TITLE'				=> 'Add module',
+	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'От тук ще можете да управлявате всички видове модули. Моля, обърнете внимание, че АКП има тринивова структура на менюто (Категория -> Категория -> Модул), докато другите имат само две нива (Категория -> Модул) която трябва да се запази. Също така имайте предвид, че можете да си заключите достъпа ако забраните или изтриете модулите отговорни за управление на самите модули.',
+	'ADD_MODULE'					=> 'Добави модул',
+	'ADD_MODULE_CONFIRM'			=> 'Сигурни ли сте, че искате да добавите избрания модул с избрания режим?',
+	'ADD_MODULE_TITLE'				=> 'Добавяне на модул',
 
 	'CANNOT_REMOVE_MODULE'	=> 'Unable to remove module, it has assigned children. Please remove or move all children before performing this action.',
 	'CATEGORY'				=> 'Category',
