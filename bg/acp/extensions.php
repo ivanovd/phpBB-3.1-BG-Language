@@ -35,90 +35,97 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'EXTENSION'					=> 'Extension',
-	'EXTENSIONS'				=> 'Extensions',
-	'EXTENSIONS_ADMIN'			=> 'Extensions Manager',
-	'EXTENSIONS_EXPLAIN'		=> 'The Extensions Manager is a tool in your phpBB Board which allows you to manage all of your extensions statuses and view information about them.',
-	'EXTENSION_INVALID_LIST'	=> 'The “%s” extension is not valid.<br />%s<br /><br />',
-	'EXTENSION_NOT_AVAILABLE'	=> 'The selected extension is not available for this board, please verify your phpBB and PHP versions are allowed (see the details page).',
-	'EXTENSION_DIR_INVALID'		=> 'The selected extension has an invalid directory structure and cannot be enabled.',
-	'EXTENSION_NOT_ENABLEABLE'	=> 'The selected extension cannot be enabled, please verify the extension’s requirements.',
+	'EXTENSION'					=> 'Разширение',
+	'EXTENSIONS'				=> 'Разширения',
+	'EXTENSIONS_ADMIN'			=> 'Управление на разширенията',
+	'EXTENSIONS_EXPLAIN'		=> 'Инструмента за управление на разширенията във Вашият phpBB форум ще Ви помогне да включвате и изключвате разширения, да проверявате статуса им и да преглеждате информацията за тях.',
+	'EXTENSION_INVALID_LIST'	=> 'Разширението “%s” е невалидно.<br />%s<br /><br />',
+	'EXTENSION_NOT_AVAILABLE'	=> 'Избраното разширение не е налично за този форум, моля проверете дали Вашата версия на phpBB и PHP се поддържат (вижте страницата с детайлите на разширението).',
+	'EXTENSION_DIR_INVALID'		=> 'Избраното разширение има невалидна структура на директориите и не може да бъде включено.',
+	'EXTENSION_NOT_ENABLEABLE'	=> 'Избраното разширение не може да бъде включено, моля проверете изискванията на разширението.',
 
-	'DETAILS'				=> 'Details',
+	'DETAILS'				=> 'Детайли',
 
-	'EXTENSIONS_DISABLED'	=> 'Disabled Extensions',
-	'EXTENSIONS_ENABLED'	=> 'Enabled Extensions',
+	'EXTENSIONS_DISABLED'	=> 'Изключени разширения',
+	'EXTENSIONS_ENABLED'	=> 'Включени разширения',
 
-	'EXTENSION_DELETE_DATA'	=> 'Delete data',
-	'EXTENSION_DISABLE'		=> 'Disable',
-	'EXTENSION_ENABLE'		=> 'Enable',
+	'EXTENSION_DELETE_DATA'	=> 'Изтрий данните',
+	'EXTENSION_DISABLE'		=> 'Изключи',
+	'EXTENSION_ENABLE'		=> 'Включи',
 
-	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Deleting an extension’s data removes all of its data and settings. The extension files are retained so it can be enabled again.',
-	'EXTENSION_DISABLE_EXPLAIN'		=> 'Disabling an extension retains its files, data and settings but removes any functionality added by the extension.',
-	'EXTENSION_ENABLE_EXPLAIN'		=> 'Enabling an extension allows you to use it on your board.',
+	'EXTENSION_DELETE_DATA_EXPLAIN'	=> 'Изтриването на данните на разширение премахва всички негови данни и настройки. Файловете на разширението се запазват и то може да бъде включено отново.',
+	'EXTENSION_DISABLE_EXPLAIN'		=> 'Изключването на разширение запазва файловете му, данните и настройките, но премахва функционалността добавена от разширението.',
+	'EXTENSION_ENABLE_EXPLAIN'		=> 'Включването на разширение позволява използването му във форума.',
 
-	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'The extension’s data is currently being deleted. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'The extension is currently being disabled. Please do not leave or refresh this page until it is completed.',
-	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'The extension is currently being enabled. Please do not leave or refresh this page until it is completed.',
+	'EXTENSION_DELETE_DATA_IN_PROGRESS'	=> 'В момента се изтриват данните на разширението. Моля, не напускайте или опреснявайте страницата докато процеса не завърши.',
+	'EXTENSION_DISABLE_IN_PROGRESS'	=> 'Разширението се изключва. Моля, не напускайте или опреснявайте страницата докато процеса не завърши.',
+	'EXTENSION_ENABLE_IN_PROGRESS'	=> 'Разширението се включва. Моля, не напускайте или опреснявайте страницата докато процеса не завърши.',
 
-	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'The extension’s data was deleted successfully',
-	'EXTENSION_DISABLE_SUCCESS'		=> 'The extension was disabled successfully',
-	'EXTENSION_ENABLE_SUCCESS'		=> 'The extension was enabled successfully',
+	'EXTENSION_DELETE_DATA_SUCCESS'	=> 'Данните на разширението бяха успешно изтрити',
+	'EXTENSION_DISABLE_SUCCESS'		=> 'Разширението беше успешно изключено',
+	'EXTENSION_ENABLE_SUCCESS'		=> 'Разширението беше успешно изключено',
 
-	'EXTENSION_NAME'			=> 'Extension Name',
-	'EXTENSION_ACTIONS'			=> 'Actions',
-	'EXTENSION_OPTIONS'			=> 'Options',
-	'EXTENSION_UPDATE_HEADLINE'	=> 'Updating an extension',
+	'EXTENSION_NAME'			=> 'Име на разширението',
+	'EXTENSION_ACTIONS'			=> 'Действия',
+	'EXTENSION_OPTIONS'			=> 'Настройки',
+	'EXTENSION_UPDATE_HEADLINE'	=> 'Обновяване на разширение',
 	'EXTENSION_UPDATE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s files from the filesystem</li>
-			<li>Upload the new files</li>
-			<li>Enable the extension</li>
+			<li>Изключете разширението</li>
+			<li>Изтрийте файловете на разширението от файловата система</li>
+			<li>Качете файловете на новата версия</li>
+			<li>Включете разширението</li>
 		</ol>',
-	'EXTENSION_REMOVE_HEADLINE'	=> 'Completly removing an extension from your board',
+	'EXTENSION_REMOVE_HEADLINE'	=> 'Изтриване на разширение от форума',
 	'EXTENSION_REMOVE_EXPLAIN'	=> '<ol>
-			<li>Disable the extension</li>
-			<li>Delete the extension’s data</li>
-			<li>Delete the extension’s files from the filesystem</li>
+			<li>Изключете разширението</li>
+			<li>Изтрийте данните на разширението</li>
+			<li>Изтрийте файловете на разширението от файловата система</li>
 		</ol>',
 
-	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Are you sure that you wish to delete the data associated with “%s”?<br /><br />This removes all of its data and settings and cannot be undone!',
-	'EXTENSION_DISABLE_CONFIRM'		=> 'Are you sure that you wish to disable the “%s” extension?',
-	'EXTENSION_ENABLE_CONFIRM'		=> 'Are you sure that you wish to enable the “%s” extension?',
-	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Are you sure that you wish to force the use of unstable version?',
+	'EXTENSION_DELETE_DATA_CONFIRM'	=> 'Сигурни ли сте, че искате да изтриете данните свързани с “%s”?<br /><br />Това ще премахне всички данни и настройки и те не могат да бъдат върнати!',
+	'EXTENSION_DISABLE_CONFIRM'		=> 'Сигурни ли сте, че искате да изключите разширението “%s”?',
+	'EXTENSION_ENABLE_CONFIRM'		=> 'Сигурни ли сте, че искате да включите разширението “%s”?',
+	'EXTENSION_FORCE_UNSTABLE_CONFIRM'	=> 'Сигурни ли сте, че искате да използвате нестабилна версия?',
 
-	'RETURN_TO_EXTENSION_LIST'	=> 'Return to the extension list',
+	'RETURN_TO_EXTENSION_LIST'	=> 'Върни се в списъка с разширения',
 
-	'EXT_DETAILS'			=> 'Extension Details',
-	'DISPLAY_NAME'			=> 'Display Name',
-	'CLEAN_NAME'			=> 'Clean Name',
-	'TYPE'					=> 'Type',
-	'DESCRIPTION'			=> 'Description',
-	'VERSION'				=> 'Version',
-	'HOMEPAGE'				=> 'Homepage',
-	'PATH'					=> 'File Path',
-	'TIME'					=> 'Release Time',
-	'LICENSE'				=> 'Licence',
+	'EXT_DETAILS'			=> 'Детайли на разширението',
+	'DISPLAY_NAME'			=> 'Име',
+	'CLEAN_NAME'			=> 'Системно име',
+	'TYPE'					=> 'Тип',
+	'DESCRIPTION'			=> 'Описание',
+	'VERSION'				=> 'Версия',
+	'HOMEPAGE'				=> 'Страница',
+	'PATH'					=> 'Път към файла',
+	'TIME'					=> 'Дата на публикуване на версията',
+	'LICENSE'				=> 'Лиценз',
 
-	'REQUIREMENTS'			=> 'Requirements',
-	'PHPBB_VERSION'			=> 'phpBB Version',
-	'PHP_VERSION'			=> 'PHP Version',
-	'AUTHOR_INFORMATION'	=> 'Author Information',
-	'AUTHOR_NAME'			=> 'Name',
-	'AUTHOR_EMAIL'			=> 'Email',
-	'AUTHOR_HOMEPAGE'		=> 'Homepage',
-	'AUTHOR_ROLE'			=> 'Role',
+	'REQUIREMENTS'			=> 'Изисквания',
+	'PHPBB_VERSION'			=> 'Версия на phpBB',
+	'PHP_VERSION'			=> 'PHP версия',
+	'AUTHOR_INFORMATION'	=> 'Информация за автора',
+	'AUTHOR_NAME'			=> 'Име',
+	'AUTHOR_EMAIL'			=> 'Емейл',
+	'AUTHOR_HOMEPAGE'		=> 'Страница',
+	'AUTHOR_ROLE'			=> 'Роля',
 
-	'NOT_UP_TO_DATE'		=> '%s is not up to date',
-	'UP_TO_DATE'			=> '%s is up to date',
-	'ANNOUNCEMENT_TOPIC'	=> 'Release Announcement',
-	'DOWNLOAD_LATEST'		=> 'Download Version',
-	'NO_VERSIONCHECK'		=> 'No version check information given.',
+	'NOT_UP_TO_DATE'		=> '%s не е актуално',
+	'UP_TO_DATE'			=> '%s е актуално',
+	'ANNOUNCEMENT_TOPIC'	=> 'Съобщение за нова версия',
+	'DOWNLOAD_LATEST'		=> 'Свали новата версия',
+	'NO_VERSIONCHECK'		=> 'Не е предоставена информация за проверка на версията.',
 
-	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Re-Check all versions',
-	'FORCE_UNSTABLE'					=> 'Always check for unstable versions',
-	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Version check settings',
+	'VERSIONCHECK_FORCE_UPDATE_ALL'		=> 'Проверка за нови версии',
+	'FORCE_UNSTABLE'					=> 'Винаги проверявай за нестабилни версии',
+	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> 'Настройки на проверката',
 
-	'META_FIELD_NOT_SET'	=> 'Required meta field %s has not been set.',
-	'META_FIELD_INVALID'	=> 'Meta field %s is invalid.',
+	'META_FIELD_NOT_SET'	=> 'Задължителното мета поле %s не е било попълнено.',
+	'META_FIELD_INVALID'	=> 'Мета полето %s е невалидно.',
+	'BROWSE_EXTENSIONS_DATABASE' => 'Търси в базата данни с разширения',
+	'EXTENSION_INSTALL_HEADLINE'=> 'Инсталиране на разширение',
+	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
+			<li>Свалете разширение от базата данни с разширения на phpBB</li>
+			<li>Разархивирайте разширението и го качете в папката <samp>ext/</samp> на Вашия форум</li>
+			<li>Включете разширението от тази секция</li>
+		</ol>',
 ));

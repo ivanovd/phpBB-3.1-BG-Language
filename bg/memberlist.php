@@ -90,7 +90,7 @@ $lang = array_merge($lang, array(
 	'IM_SENT_JABBER'		=> 'Вашето съобщение до %1$s беше изпратено успешно.',
 	'IM_USER'				=> 'Изпрати моментално съобщение',
 
-	'LAST_ACTIVE'				=> 'Последно активен на',
+	'LAST_ACTIVE'				=> 'Последно активен',
 	'LESS_THAN'					=> 'По-малко от',
 	'LIST_USERS'				=> array(
 		1	=> '%d потребител',
