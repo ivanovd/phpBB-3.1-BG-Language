@@ -1,16 +1,16 @@
-Subject: "{SITENAME}" - Email a friend
+Subject: "{SITENAME}" - Емейл от приятел
 
-Hello {TO_USERNAME},
+Здравейте {TO_USERNAME},
 
-This email was sent from "{SITENAME}" by {FROM_USERNAME} who thought you may be interested in the following topic:
+Този емейл беше изпратен от "{SITENAME}" от името на {FROM_USERNAME}, който прецени, че може би бихте се заинтересували от следната тема:
 
 {TOPIC_NAME}
 
-You can find it at:
+Можете да я прочетете на следния адрес:
 
 {U_TOPIC}
 
-A message from {FROM_USERNAME} may also be included below. Please note that this message has not been seen or approved by the board administrators. If you wish to complain about having received this email please contact the board administrator at {BOARD_CONTACT}. Please quote the message headers when contacting this address.
+Съобщение от {FROM_USERNAME} също така може да е включено по-долу. Моля, обърнете внимание, че това съобщение не е видяно или одобрено от администратор на форума. Ако искате да се оплачете от получаването на този емейл, моля свържете се с администратор на {BOARD_CONTACT}. Моля, цитирайте полученото съобщение заедно с хедърите.
 
 ----------
 

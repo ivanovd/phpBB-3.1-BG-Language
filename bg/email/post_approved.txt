@@ -1,4 +1,4 @@
-Заглавие: Одобрено мнение - "{POST_SUBJECT}"
+Subject: Одобрено мнение - "{POST_SUBJECT}"
 
 Здравейте {USERNAME},
 

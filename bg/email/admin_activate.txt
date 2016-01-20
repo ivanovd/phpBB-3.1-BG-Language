@@ -1,13 +1,13 @@
-Subject: Activate user account
+Subject: Активиране на потребителски профил
 
-Hello,
+Здравейте,
 
-The account owned by "{USERNAME}" has been deactivated or newly created, you should check the details of this user (if required) and handle it appropriately.
+Профилът, принадлежащ на "{USERNAME}" е бил деактивиран или новосъздаден, трябва да проверите детайлите на потребителя (ако се налага) и да предприемете съответните действия.
 
-Use this link to view the user's profile:
+Използвайте връзката по-долу за да видите профила на потребителя:
 {U_USER_DETAILS}
 
-Use this link to activate the account:
+Използвайте тази връзка за да активирате профила:
 {U_ACTIVATE}
 
 {EMAIL_SIG}

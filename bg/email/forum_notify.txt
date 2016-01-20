@@ -1,18 +1,18 @@
-Subject: Forum post notification - "{FORUM_NAME}"
+Subject: Известие за отговор във форум - "{FORUM_NAME}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because you are watching the forum "{FORUM_NAME}" at "{SITENAME}". This forum has received a new reply to the topic "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> by {AUTHOR_NAME}<!-- ENDIF --> since your last visit. You can use the following link to view the last unread reply, no more notifications will be sent until you visit the topic.
+Получавате това известие, защото сте абониран за форум "{FORUM_NAME}" в "{SITENAME}". От последното Ви посещение в този форум има ново съобщение в тема "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME !== '' --> публикувано от {AUTHOR_NAME}<!-- ENDIF -->. Можете да последвате следната връзка за да видите последното непрочетено съобщение, няма да получавате известия докато не посетите темата и не прочетете отговорите.
 
 {U_NEWEST_POST}
 
-If you want to view the topic, click the following link:
+Ако искате да прегледате темата, моля последвайте връзката по-долу:
 {U_TOPIC}
 
-If you want to view the forum, click the following link:
+Ако искате да видите форума, последвайте връзката по-долу:
 {U_FORUM}
 
-If you no longer wish to watch this forum you can either click the "Unsubscribe forum" link found in the forum above, or by clicking the following link:
+Ако искате да спрете абонамента за този форум можете да натиснете връзката "Отписване от форума" намираща се най-долу във форума или като последвате следната връзка:
 
 {U_STOP_WATCHING_FORUM}
 

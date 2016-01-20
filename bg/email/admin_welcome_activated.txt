@@ -1,9 +1,9 @@
-Subject: Account activated
+Subject: Активиран профил
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-Your account on "{SITENAME}" has been activated by an administrator, you may login now.
+Профилът Ви в "{SITENAME}" беше успешно активиран от администратор и можете да влезнете в него си още сега.
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Паролата Ви беше криптирана и записана в базата данни и не може да бъде възстановена. В случай, че я забравите, ще трябва да генерирате нова парола, като инструкциите за генериране на нова парола ще Ви бъдат изпратени на емейл адреса асоцииран с профила Ви.
 
 {EMAIL_SIG}

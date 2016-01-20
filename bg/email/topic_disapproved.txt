@@ -1,4 +1,4 @@
-Заглавие: Неодобрена тема - "{TOPIC_TITLE}"
+Subject: Неодобрена тема - "{TOPIC_TITLE}"
 
 Здравейте {USERNAME},
 

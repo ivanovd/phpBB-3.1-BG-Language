@@ -1,4 +1,4 @@
-Заглавие: Неодобрено мнение - "{POST_SUBJECT}"
+Subject: Неодобрено мнение - "{POST_SUBJECT}"
 
 Здравейте {USERNAME},
 

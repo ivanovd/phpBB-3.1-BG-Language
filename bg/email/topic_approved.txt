@@ -1,4 +1,4 @@
-Заглавие: Одобрена тема - "{TOPIC_TITLE}"
+Subject: Одобрена тема - "{TOPIC_TITLE}"
 
 Здравейте {USERNAME},
 

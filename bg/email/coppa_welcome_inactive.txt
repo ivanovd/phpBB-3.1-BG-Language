@@ -1,42 +1,42 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Добре дошли в "{SITENAME}"
 
 {WELCOME_MSG}
 
-In compliance with the COPPA, your account is currently inactive.
+Според регулациите на COPPA, в момента профилът Ви е неактивен.
 
-Please print this message and have your parent or guardian sign and date it. Then fax it to:
+Моля, принтирайте това съобщение и го представете на Ваш родител или попечител, който трябва да го подпише и да сложи дата и да го изпрати по факс на:
 
 {FAX_INFO}
 
-OR mail it to:
+ИЛИ на адрес:
 
 {MAIL_INFO}
 
------------------------------- CUT HERE ------------------------------
-Permission to participate at "{SITENAME}" - {U_BOARD}
+------------------------------ ОТРЕЖИ ТУК ------------------------------
+Позволение за участие в "{SITENAME}" - {U_BOARD}
 
-Username: {USERNAME}
-Email: {EMAIL_ADDRESS}
+Потребителско име: {USERNAME}
+Емейл: {EMAIL_ADDRESS}
 
-I HAVE REVIEWED THE INFORMATION PROVIDED BY MY CHILD AND HEREBY GRANT PERMISSION TO "{SITENAME}" TO STORE THIS INFORMATION. 
-I UNDERSTAND THIS INFORMATION CAN BE CHANGED AT ANY TIME BY ENTERING A PASSWORD. 
-I UNDERSTAND THAT I MAY REQUEST FOR THIS INFORMATION TO BE REMOVED FROM "{SITENAME}" AT ANY TIME.
-
-
-Parent or guardian 
-(print your name here): _____________________
-
-(sign here): __________________ 
-
-Date: _______________
-
------------------------------- CUT HERE ------------------------------
+ПРЕГЛЕДАХ ИНФОРМАЦИЯТА ПОДАДЕНА ОТ ДЕТЕТО МИ И ДАВАМ СВОЕТО ПОЗВОЛЕНИЕ НА "{SITENAME}" ДА ЗАПИШЕ ТАЗИ ИНФОРМАЦИЯ. 
+РАЗБИРАМ, ЧЕ ТАЗИ ИНФОРМАЦИЯ МОЖЕ ДА БЪДЕ ПРОМЕНЕНА ПО ВСЯКО ВРЕМЕ ПРИ ВЪВЕЖДАНЕ НА ПАРОЛА. 
+РАЗБИРАМ, ЧЕ МОГА ДА ПОИСКАМ ТАЗИ ИНФОРМАЦИЯ ДА БЪДЕ ПРЕМАХНАТА ОТ "{SITENAME}" ПО ВСЯКО ВРЕМЕ.
 
 
-Once the administrator has received the above form via fax or regular mail, your account will be activated.
+Родител или настойник 
+(напишете името си тук): _____________________
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+(подпис): __________________ 
 
-Thank you for registering.
+Дата: _______________
+
+------------------------------ ОТРЕЖИ ТУК ------------------------------
+
+
+OЩом администраторът получи горния формуляр по факс или обикновена поща, профилът Ви ще бъде активиран.
+
+Паролата Ви беше криптирана и записана в базата данни и не може да бъде възстановена. В случай, че я забравите, ще трябва да генерирате нова парола, като инструкциите за генериране на нова парола ще Ви бъдат изпратени на емейл адреса асоцииран с профила Ви.
+
+Благодарим Ви за регистрацията.
 
 {EMAIL_SIG}

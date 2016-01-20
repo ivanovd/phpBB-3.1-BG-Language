@@ -1,11 +1,11 @@
-Subject: You have been added to this usergroup
+Subject: Бяхте добавен в тази потребителска група
 
-Congratulations,
+Поздравления,
 
-You have been added to the "{GROUP_NAME}" group on "{SITENAME}".
-This action was done by a group leader or the site administrator, contact them for more information.
+Бяхте добавен в групата "{GROUP_NAME}" в "{SITENAME}".
+Това действие беше извършено от лидера на групата или от администратора, свържете се с тях за повече информация.
 
-You can view your groups information here:
+Можете да видите информация за групите Ви от следната връзка:
 {U_GROUP}
 
 {EMAIL_SIG}

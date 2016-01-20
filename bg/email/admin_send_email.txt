@@ -1,11 +1,11 @@
 
-The following is an email sent to you by an administrator of "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Следният емейл е изпратен от администратор на "{SITENAME}". Ако това съобщение е спам, съдържа обидни или други коментари, които намирате за обидни, моля, свържете се с екипа на форума на следния емейл адрес:
 
 {CONTACT_EMAIL}
 
-Include this full email (particularly the headers). 
+Прикачете пълният текст на емейлна (включително хедъра). 
 
-Message sent to you follows:
+Съдържание на съобщението:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
