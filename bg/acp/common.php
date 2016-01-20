@@ -322,26 +322,26 @@ $lang = array_merge($lang, array(
 
 // Logs
 $lang = array_merge($lang, array(
-	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'This lists all the actions carried out by board administrators. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'This lists the actions carried out by the board itself. This log provides you with information you are able to use for solving specific problems, for example non-delivery of emails. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_MOD_LOGS_EXPLAIN'		=> 'This lists all actions done on forums, topics and posts as well as actions carried out on users by moderators, including banning. You can sort by username, date, IP or action. If you have appropriate permissions you can also clear individual operations or the log as a whole.',
-	'ACP_USERS_LOGS_EXPLAIN'	=> 'This lists all actions carried out by users or on users (reports, warnings and user notes).',
-	'ALL_ENTRIES'				=> 'All entries',
+	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Това е списък с всички действия извършени от администраторите на форума. Можете да сортирате по потребителско име, дата, IP адрес или действие. Ако имате подходящите права, можете да изтривате индивидуални записи или целия лог.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Това е списък с всички дейтвия, които форумът сам е извършил. Този лог дава информация, която би била полезна при решаване на специфични проблеми, например, недоставени емейл съобщения. Можете да сортирате по потребителско име, дата, IP адрес или действие. Ако имате подходящите права, можете да изтривате индивидуални записи или целия лог.',
+	'ACP_MOD_LOGS_EXPLAIN'		=> 'Това е списък с всички дествия извършени във форумите, темите, мненията, както и действията на модераторите, включително и изгонванията. Можете да сортирате по потребителско име, дата, IP адрес или действие. Ако имате подходящите права, можете да изтривате индивидуални записи или целия лог.',
+	'ACP_USERS_LOGS_EXPLAIN'	=> 'Това е списък с всички действия извършени от потребителите или върху потребителите (доклади, предупреждения и бележки).',
+	'ALL_ENTRIES'				=> 'Всички записи',
 
-	'DISPLAY_LOG'	=> 'Display entries from previous',
+	'DISPLAY_LOG'	=> 'Покажи предишните записи',
 
-	'NO_ENTRIES'	=> 'No log entries for this period.',
+	'NO_ENTRIES'	=> 'Няма записи в лога за този период.',
 
 	'SORT_IP'		=> 'IP адрес',
 	'SORT_DATE'		=> 'Дата',
-	'SORT_ACTION'	=> 'Log action',
+	'SORT_ACTION'	=> 'Записано действие',
 ));
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Thank you for choosing phpBB as your board solution. This screen will give you a quick overview of all the various statistics of your board. The links on the left hand side of this screen allow you to control every aspect of your board experience. Each page will have instructions on how to use the tools.',
-	'ADMIN_LOG'					=> 'Logged administrator actions',
-	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'This gives an overview of the last five actions carried out by board administrators. A full copy of the log can be viewed from the appropriate menu item or following the link below.',
+	'ADMIN_INTRO'				=> 'Благодарим Ви, че избрахте phpBB за платформа на Вашия форум. На тази страница можете да намерите информация за различни статистики на форума. Връзките от ляво Ви позволяват да контролирате всеки аспект от функционирането на форума. Всяка отделна страница ще има подробни инструкции за използване на инструментите в нея.',
+	'ADMIN_LOG'					=> 'Действия на администраторите',
+	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Това е извадка с последните пет действия на администраторите. Пълният списък с действия може да се види от съответното меню или като последвате връзката по-долу.',
 	'AVATAR_DIR_SIZE'			=> 'Размер на директорията с аватари',
 
 	'BOARD_STARTED'		=> 'Начална дата на форума',
@@ -351,29 +351,29 @@ $lang = array_merge($lang, array(
 	'DATABASE_SIZE'			=> 'Размер на базата данни',
 
 	// Enviroment configuration checks, mbstring related
-	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Function overloading is improperly configured',
-	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> must be set to either 0 or 4. You can check the current value on the <samp>PHP information</samp> page.',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding is improperly configured',
-	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> must be set to 0. You can check the current value on the <samp>PHP information</samp> page.',
-	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion is improperly configured',
-	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> must be set to <samp>pass</samp>. You can check the current value on the <samp>PHP information</samp> page.',
-	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion is improperly configured',
-	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> must be set to <samp>pass</samp>. You can check the current value on the <samp>PHP information</samp> page.',
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Функцията overloading е неправилно конфигурирана',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> трябва да е настроена на 0 или 4. Можете да проверите моментната стойност на страницата с <samp>PHP информация</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding е неправилно конфигурирана',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> трябва да е настроена на 0. Можете да проверите моментната стойност на страницата с <samp>PHP информация</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion е неправилно конфигурирана',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> трябва да е настроена на <samp>pass</samp>. Можете да проверите моментната стойност на страницата с <samp>PHP информация</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion е неправилно конфигурирана',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> трябва да е настроена на <samp>pass</samp>. Можете да проверите моментната стойност на страницата с <samp>PHP информация</samp>.',
 
 	'FILES_PER_DAY'		=> 'Прикачени файлове на ден',
 	'FORUM_STATS'		=> 'Статистика на форума',
 
 	'GZIP_COMPRESSION'	=> 'GZip компресия',
 
-	'NO_SEARCH_INDEX'	=> 'The selected search backend does not have a search index.<br />Please create the index for “%1$s” in the %2$ssearch index%3$s section.',
-	'NOT_AVAILABLE'		=> 'Not available',
+	'NO_SEARCH_INDEX'	=> 'Избраният метод за търсене няма създаден индекс.<br />Моля, създайте индекс за “%1$s” в секцията %2$sИндекс на търсачката%3$s.',
+	'NOT_AVAILABLE'		=> 'Не е наличен',
 	'NUMBER_FILES'		=> 'Брой прикачени файлове',
 	'NUMBER_POSTS'		=> 'Брой мнения',
 	'NUMBER_TOPICS'		=> 'Брой теми',
 	'NUMBER_USERS'		=> 'Брой потребители',
 	'NUMBER_ORPHAN'		=> 'Неизползвани прикачени файлове',
 
-	'PHP_VERSION_OLD'	=> 'The version of PHP on this server will no longer be supported by future versions of phpBB. %sDetails%s',
+	'PHP_VERSION_OLD'	=> 'Версията на PHP, инсталирана на този сървър няма да бъде поддържана от бъдещите версии на phpBB. %sПовече информация%s',
 
 	'POSTS_PER_DAY'		=> 'Мнения на ден',
 
@@ -410,46 +410,46 @@ $lang = array_merge($lang, array(
 	'STATISTIC'					=> 'Статистика',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'Синхронизиране или нулиране на статистиките',
 
-	'TIMEZONE_INVALID'	=> 'The timezone you selected is invalid.',
-	'TIMEZONE_SELECTED'	=> '(currently selected)',
+	'TIMEZONE_INVALID'	=> 'Часовата зона, която сте избрали е неправилна.',
+	'TIMEZONE_SELECTED'	=> '(избрана в момента)',
 	'TOPICS_PER_DAY'	=> 'Теми на ден',
 
 	'UPLOAD_DIR_SIZE'	=> 'Общ размер на прикачените файлове',
 	'USERS_PER_DAY'		=> 'Потребители на ден',
 
 	'VALUE'						=> 'Стойност',
-	'VERSIONCHECK_FAIL'			=> 'Failed to obtain latest version information.',
+	'VERSIONCHECK_FAIL'			=> 'Възникна грешка при проверката за нова версия.',
 	'VERSIONCHECK_FORCE_UPDATE'	=> 'провери за по-нова версия',
-	'VIEW_ADMIN_LOG'			=> 'View administrator log',
-	'VIEW_INACTIVE_USERS'		=> 'View inactive users',
+	'VIEW_ADMIN_LOG'			=> 'Виж админ лога',
+	'VIEW_INACTIVE_USERS'		=> 'Виж неактивните потребители',
 
 	'WELCOME_PHPBB'			=> 'Добре дошли в phpBB',
-	'WRITABLE_CONFIG'		=> 'Your config file (config.php) is currently world-writable. We strongly encourage you to change the permissions to 640 or at least to 644 (for example: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
+	'WRITABLE_CONFIG'		=> 'Вашият конфигурационен файл (config.php) може да бъде променян от всички. Съветваме Ви незабавно да промените правата на 640 или на 644 (например: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',
 ));
 
 // Inactive Users
 $lang = array_merge($lang, array(
-	'INACTIVE_DATE'					=> 'Inactive date',
-	'INACTIVE_REASON'				=> 'Reason',
-	'INACTIVE_REASON_MANUAL'		=> 'Account deactivated by administrator',
-	'INACTIVE_REASON_PROFILE'		=> 'Profile details changed',
-	'INACTIVE_REASON_REGISTER'		=> 'Newly registered account',
-	'INACTIVE_REASON_REMIND'		=> 'Forced user account reactivation',
-	'INACTIVE_REASON_UNKNOWN'		=> 'Unknown',
-	'INACTIVE_USERS'				=> 'Inactive users',
-	'INACTIVE_USERS_EXPLAIN'		=> 'This is a list of users who have registered but whose accounts are inactive. You can activate, delete or remind (by sending an email) these users if you wish.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'This is a list of the last 10 registered users who have inactive accounts. Accounts are inactive either because account activation was enabled in user registration settings and these users’ accounts have not yet been activated, or because these accounts have been deactivated. A full list is available by following the link below from where you can activate, delete or remind (by sending an email) these users if you wish.',
+	'INACTIVE_DATE'					=> 'Неактивен от',
+	'INACTIVE_REASON'				=> 'Причина',
+	'INACTIVE_REASON_MANUAL'		=> 'Потребителят е деактивиран от администратор',
+	'INACTIVE_REASON_PROFILE'		=> 'Промяна в детайлите на профила',
+	'INACTIVE_REASON_REGISTER'		=> 'Новорегистриран профил',
+	'INACTIVE_REASON_REMIND'		=> 'Поискана повторна активация',
+	'INACTIVE_REASON_UNKNOWN'		=> 'Незнайна',
+	'INACTIVE_USERS'				=> 'Неактивни потребители',
+	'INACTIVE_USERS_EXPLAIN'		=> 'Това е списък с потребителите, които са се регистрирали, но профилите им не са активирани. Можете да активирате или изтривате тези потребители или да им напомняте (с изпращане на емейл) да активират профилите си.',
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Това е извадка с последните десет потребителя с неактивни профили. Профилите са неактивни защото активирането на профилите е било включено в настройките за регистрация на потребители и те все още не са ги активирали или защото тези профили са били деактивирани ръчно или автоматично. Пълният списък можете да видите като последвате връзката по-долу, като там можете да активирате или изтривате тези потребители или да им напомняте (с изпращане на емейл) да активират профилите си.',
 
-	'NO_INACTIVE_USERS'	=> 'No inactive users',
+	'NO_INACTIVE_USERS'	=> 'Няма неактивни потребители',
 
-	'SORT_INACTIVE'		=> 'Inactive date',
-	'SORT_LAST_VISIT'	=> 'Last visit',
-	'SORT_REASON'		=> 'Reason',
-	'SORT_REG_DATE'		=> 'Registration date',
-	'SORT_LAST_REMINDER'=> 'Last reminded',
-	'SORT_REMINDER'		=> 'Reminder sent',
+	'SORT_INACTIVE'		=> 'Неактивен от',
+	'SORT_LAST_VISIT'	=> 'Последно посещение',
+	'SORT_REASON'		=> 'Причина',
+	'SORT_REG_DATE'		=> 'Дата на регистрация',
+	'SORT_LAST_REMINDER'=> 'Последно напомняне',
+	'SORT_REMINDER'		=> 'Изпратено напомняне',
 
-	'USER_IS_INACTIVE'		=> 'User is inactive',
+	'USER_IS_INACTIVE'		=> 'Потребителят е неактивен',
 ));
 
 // Send statistics page
