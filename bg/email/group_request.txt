@@ -1,9 +1,9 @@
-Subject: A request to join your group has been made
+Subject: Нова заявка за присъединяване към Вашата група
 
-Dear {USERNAME},
+Уважаеми {USERNAME},
 
-The user "{REQUEST_USERNAME}" has requested to join the group "{GROUP_NAME}" you moderate on "{SITENAME}".
-To approve or deny this request for group membership please visit the following link:
+Потребителят "{REQUEST_USERNAME}" поиска да се присъедини към групата "{GROUP_NAME}", която Вие модерирате в "{SITENAME}".
+За да одобрите или откажете тази заявка, моля, посетете връзката по-долу:
 
 {U_PENDING}
 

@@ -1,17 +1,17 @@
-Subject: Reactivate your account on "{SITENAME}"
+Subject: Повторно активиране на профила в "{SITENAME}"
 
-A board administrator requested that your account be reactivated. Your account is currently inactive.
-Please follow the steps listed here to reactivate your account.
+Администратор на форума е изискал профилът Ви да бъде повторно активиран. В момента профилът Ви е неактивен.
+Моля, следвайте следните стъпки за да активирате профила си.
 
-Please keep this email for your records. Your account information is as follows:
+Моля, запазете това съобщение за Ваша информация:
 
 ----------------------------
-Username: {USERNAME}
+Потребителско име: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Паролата Ви беше криптирана и записана в базата данни и не може да бъде възстановена. В случай, че я забравите, ще трябва да генерирате нова парола, като инструкциите за генериране на нова парола ще Ви бъдат изпратени на емейл адреса асоцииран с профила Ви.
 
-Please visit the following link to reactivate your account:
+Моля, последвайте долната връзка за да активирате повторно профила си:
 
 {U_ACTIVATE}
 

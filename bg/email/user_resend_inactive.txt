@@ -1,19 +1,19 @@
-Subject: Welcome to "{SITENAME}"
+Subject: Добре дошли в "{SITENAME}"
 
 {WELCOME_MSG}
 
-Please keep this email for your records. Your account information is as follows:
+Моля, запазете този емейл. Информация за Вашият профил:
 
 ----------------------------
-Username: {USERNAME}
+Потребителско име: {USERNAME}
 ----------------------------
 
-Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Паролата Ви беше криптирана и записана в базата данни и не може да бъде възстановена. В случай, че я забравите, ще трябва да генерирате нова парола, като инструкциите за генериране на нова парола ще Ви бъдат изпратени на емейл адреса асоцииран с профила Ви.
 
-Please visit the following link in order to activate your account:
+Моля, посетете връзката по-долу за да активирате профила си:
 
 {U_ACTIVATE}
 
-Thank you for registering.
+Благодарим Ви за регистрацията.
 
 {EMAIL_SIG}

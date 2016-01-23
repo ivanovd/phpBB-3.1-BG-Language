@@ -1,19 +1,19 @@
-Subject: phpBB installed
+Subject: phpBB е инсталиран
 
-Congratulations,
+Поздравления,
 
-You have successfully installed phpBB on your server.
+Успешно инсталирахте phpBB на Вашият сървър.
 
-This email contains important information regarding your installation and should be kept for reference. Your password has been securely stored in our database and cannot be retrieved. In the event that it is forgotten, you will be able to reset it using the email address associated with your account.
+Този емейл съдържа важна информация за Вашата инсталация и трябва да бъде запазена. Паролата Ви беше криптирана и записана в базата данни и не може да бъде възстановена. В случай, че я забравите, ще трябва да генерирате нова парола, като инструкциите за генериране на нова парола ще Ви бъдат изпратени на емейл адреса асоцииран с профила Ви.
 
 ----------------------------
-Username: {USERNAME}
+Потребителско име: {USERNAME}
 
-Board URL: {U_BOARD}
+Адрес на форума: {U_BOARD}
 ----------------------------
 
-Useful information regarding the phpBB software can be found in the docs folder of your installation and on phpBB.com's support page - https://www.phpbb.com/support/
+Полезна информация за phpBB софтуера може да бъде намерена в папката docs, както и на сайта за поддръжка на phpBB.com - https://www.phpbb.com/support/
 
-In order to keep your board safe and secure, we highly recommended keeping current with software releases. For your convenience, a mailing list is available at the page referenced above.
+За да запазите форума си безопасен и сигурен, Ви препоръчваме винаги да ползвате последната налична версия. За Ваше улеснение, в страницата цитирана по-горе можете да се абонирате да получавате известия за нови версии по емейл.
 
 {EMAIL_SIG}

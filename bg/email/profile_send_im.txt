@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+Здравейте {TO_USERNAME},
 
-The following is a message sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Следното съобщение Ви беше изпратено от {FROM_USERNAME} през профила ви в "{SITENAME}". Ако това съобщение е спам, съдържа обидни или други коментари, които смятате за обидни, моля свържете се с администратора на форума чрез следните контакти:
 
 {BOARD_CONTACT}
 
-Include this full message. Please note that the sender address has been set to the boards IM account.
+Включете пълният текст на съобщението. Имайте предвид, че адресът на изпращача е чат адресът на форума, а не неговият личен.
 
-Message sent to you follows
+Съдържание на съобщението
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

@@ -1,7 +1,7 @@
-Subject: Report closed - "{POST_SUBJECT}"
+Subject: Затворен доклад - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was handled by a moderator or by an administrator. The report was afterwards closed. If you have further questions contact {CLOSER_NAME} with a personal message.
+Получавате това известие, тъй като докладът, който подадохте за мнение "{POST_SUBJECT}" в тема "{TOPIC_TITLE}" в "{SITENAME}" беше обработен и след това затворен от модератор или администратор. Ако имате последващи въпроси, моля свържете се с  {CLOSER_NAME} чрез лично съобщение.
 
 {EMAIL_SIG}

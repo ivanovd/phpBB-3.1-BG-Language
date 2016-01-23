@@ -1,7 +1,7 @@
-Subject: Report deleted - "{POST_SUBJECT}"
+Subject: Изтрит доклад - "{POST_SUBJECT}"
 
-Hello {USERNAME},
+Здравейте {USERNAME},
 
-You are receiving this notification because the report you filed on the post "{POST_SUBJECT}" in "{TOPIC_TITLE}" at "{SITENAME}" was deleted by a moderator or by an administrator.
+Получавате това известие, тъй като докладът, който подадохте за мнение "{POST_SUBJECT}" в тема "{TOPIC_TITLE}" в "{SITENAME}" беше изтрит от модератор или от администратор.
 
 {EMAIL_SIG}

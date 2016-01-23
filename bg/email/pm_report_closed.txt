@@ -2,6 +2,6 @@ Subject: Report closed - "{PM_SUBJECT}"
 
 Hello {USERNAME},
 
-You are receiving this notification because the report you filed regarding the private message "{PM_SUBJECT}" at "{SITENAME}" has been tended to by a moderator or administrator. The report is now closed. If you have further questions, please contact {CLOSER_NAME} by private message.
+Получавате това известие, тъй като докладът, който подадохте за лично съобщение "{PM_SUBJECT}" в "{SITENAME}" беше обработен и след това затворен от модератор или администратор. Ако имате последващи въпроси, моля свържете се с  {CLOSER_NAME} чрез лично съобщение.
 
 {EMAIL_SIG}

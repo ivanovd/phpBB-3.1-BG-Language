@@ -1,13 +1,13 @@
 
-Hello {TO_USERNAME},
+Здравейте {TO_USERNAME},
 
-The following is an email sent to you by {FROM_USERNAME} via your account on "{SITENAME}". If this message is spam, contains abusive or other comments you find offensive please contact the webmaster of the board at the following address:
+Следният емейл Ви беше изпратено от {FROM_USERNAME} през профила ви в "{SITENAME}". Ако това съобщение е спам, съдържа обидни или други коментари, които смятате за обидни, моля свържете се с администратора на форума чрез следните контакти:
 
 {BOARD_CONTACT}
 
-Include this full email (particularly the headers). Please note that the reply address to this email has been set to that of {FROM_USERNAME}.
+Прикачете пълният текст на емейлна (включително хедъра). Имайте предвид, че адресът за отговор на този емейл е адресът на {FROM_USERNAME}.
 
-Message sent to you follows
+Съдържание на съобщението:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}
