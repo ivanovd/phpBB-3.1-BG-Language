@@ -454,14 +454,14 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Please send information about your server and board configurations to phpBB for statistical analysis. All information that could identify you or your website has been removed - the data is entirely <strong>anonymous</strong>. We base decisions about future phpBB versions on this information. The statistics are made available publically. We also share this data with the PHP project, the programming language phpBB is made with.',
-	'EXPLAIN_SHOW_STATISTICS'	=> 'Using the button below you can preview all variables that will be transmitted.',
-	'DONT_SEND_STATISTICS'		=> 'Return to the ACP if you do not wish to send statistical information to phpBB.',
-	'GO_ACP_MAIN'				=> 'Go to the ACP start page',
-	'HIDE_STATISTICS'			=> 'Hide details',
-	'SEND_STATISTICS'			=> 'Send statistical information',
-	'SHOW_STATISTICS'			=> 'Show details',
-	'THANKS_SEND_STATISTICS'	=> 'Thank you for submitting your information.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Моля, изпратете информация за Вашия сървър и конфигурацията на форума на phpBB за статистически анализ. Цялата информация, която би могла да идентифицира Вас или вашият сайт е премахната - данните са напълно <strong>анонимни</strong>. Базирайки се на тази информация ние правим решения за бъдещите phpBB версии. Статистиките са публично достъпни. Също така споделяме тази информация с PHP проекта, програмният език, на който е написан phpBB.',
+	'EXPLAIN_SHOW_STATISTICS'	=> 'От бутона по-долу можете да видите всички променливи, които ще бъдат изпратени.',
+	'DONT_SEND_STATISTICS'		=> 'Върнете се в АКП ако не искате да изпратите статистическа информация на phpBB.',
+	'GO_ACP_MAIN'				=> 'Отиди на началната АКП страница',
+	'HIDE_STATISTICS'			=> 'Скрий детайлите',
+	'SEND_STATISTICS'			=> 'Изпрати статистическа информация',
+	'SHOW_STATISTICS'			=> 'Покажи детайлите',
+	'THANKS_SEND_STATISTICS'	=> 'Благодарим Ви за изпращането на информацията.',
 ));
 
 // Log Entries
