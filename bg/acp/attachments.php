@@ -150,7 +150,7 @@ $lang = array_merge($lang, array(
 	'ORDER_DENY_ALLOW'		=> 'Забрани',
 
 	'REMOVE_ALLOWED_IPS'			=> 'Премахни <em>разрешени</em> IP адреси/хостове',
-	'REMOVE_DISALLOWED_IPS'			=> 'Премахни <em>разбранени</em> IP адреси/хостове',
+	'REMOVE_DISALLOWED_IPS'			=> 'Премахни <em>забранени</em> IP адреси/хостове',
 	'RESYNC_FILES_STATS_CONFIRM'	=> 'Сигурни ли сте, че искате да синхронизирате файловите статистики?',
 
 	'SEARCH_IMAGICK'				=> 'Намери Imagemagick',
