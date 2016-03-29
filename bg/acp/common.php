@@ -538,7 +538,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_FEATURES'		=> '<strong>Промени настройките на функциите</strong>',
 	'LOG_CONFIG_LOAD'			=> '<strong>Промени настройките на натоварването</strong>',
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Промени настройките на личните съобщения</strong>',
-	'LOG_CONFIG_POST'			=> '<strong>Промени настройите на писането</strong>',
+	'LOG_CONFIG_POST'			=> '<strong>Промени настройките на писането</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Промени настройките на регистрацията на потребители</strong>',
 	'LOG_CONFIG_FEED'			=> '<strong>Промени настройките на хранилката</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Промени настройките на търсенето</strong>',
@@ -700,7 +700,7 @@ $lang = array_merge($lang, array(
 	'LOG_RESET_DATE'			=> '<strong>Нулира началната дата на форума</strong>',
 	'LOG_RESET_ONLINE'			=> '<strong>Нулира брояча за най-много потребители на линия</strong>',
 	'LOG_RESYNC_FILES_STATS'	=> '<strong>Синхронизира файловите статистики</strong>',
-	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Синхронизира брояча на мненияUser post counts resynchronised</strong>',
+	'LOG_RESYNC_POSTCOUNTS'		=> '<strong>Синхронизира брояча на мнения</strong>',
 	'LOG_RESYNC_POST_MARKING'	=> '<strong>Синхронизира точкуваните теми</strong>',
 	'LOG_RESYNC_STATS'			=> '<strong>Синхронизира статистиките</strong>',
 
