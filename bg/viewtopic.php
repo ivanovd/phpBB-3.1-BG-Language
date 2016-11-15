@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 
 	'MAKE_ANNOUNCE'				=> 'Промени на “Важно съобщение”',
 	'MAKE_GLOBAL'				=> 'Промени на “Глобално съобщение”',
-	'MAKE_NORMAL'				=> 'Промени на “Стандартна тема”',
+	'MAKE_NORMAL'				=> 'Промени на “Нормална тема”',
 	'MAKE_STICKY'				=> 'Промени на “Закачена тема”',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> 'Можете да изберете само <strong>%d</strong> отговор',

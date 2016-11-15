@@ -157,10 +157,10 @@ $lang = array_merge($lang, array(
 
 // Post Settings
 $lang = array_merge($lang, array(
-	'ACP_POST_SETTINGS_EXPLAIN'			=> 'Here you can set all default settings for posting.',
-	'ALLOW_POST_LINKS'					=> 'Allow links in posts/private messages',
-	'ALLOW_POST_LINKS_EXPLAIN'			=> 'If disallowed the <code>[URL]</code> BBCode tag and automatic/magic URLs are disabled.',
-	'ALLOW_POST_FLASH'					=> 'Allow use of <code>[FLASH]</code> BBCode tag in posts',
+	'ACP_POST_SETTINGS_EXPLAIN'			=> 'От тук можете да променяте настройките за публикуване по подразбиране.',
+	'ALLOW_POST_LINKS'					=> 'Разреши взръките в мненията/личните съобщения',
+	'ALLOW_POST_LINKS_EXPLAIN'			=> 'Ако не е разрешено, то BBCode кодът <code>[URL]</code> и автоматичното преобразуване на URL адресите са забранени.',
+	'ALLOW_POST_FLASH'					=> 'Разреши използването на BBCode кодът <code>[FLASH]</code> в мненията',
 	'ALLOW_POST_FLASH_EXPLAIN'			=> 'If disallowed the <code>[FLASH]</code> BBCode tag is disabled in posts. Otherwise the permission system controls which users can use the <code>[FLASH]</code> BBCode tag.',
 
 	'BUMP_INTERVAL'					=> 'Bump interval',
