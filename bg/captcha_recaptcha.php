@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'en',
+	'RECAPTCHA_LANG'				=> 'bg',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'За да използвате reCaptcha, първо трябва да си създадете профил в <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'Визуланият код, който изпратихте е грешен',
